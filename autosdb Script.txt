@@ -1,0 +1,6512 @@
+use AUTOSDB;
+
+db.car_details.insertMany([
+  {
+    "id":1,
+    "mpg":18,
+    "cylinders":8,
+    "edispl":307,
+    "horsepower":130,
+    "weight":3504,
+    "accel":12,
+    "year":1970
+},
+{
+    "id":2,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":165,
+    "weight":3693,
+    "accel":11.5,
+    "year":1970
+},
+{
+    "id":3,
+    "mpg":18,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":3436,
+    "accel":11,
+    "year":1970
+},
+{
+    "id":4,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":304,
+    "horsepower":150,
+    "weight":3433,
+    "accel":12,
+    "year":1970
+},
+{
+    "id":5,
+    "mpg":17,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":140,
+    "weight":3449,
+    "accel":10.5,
+    "year":1970
+},
+{
+    "id":6,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":429,
+    "horsepower":198,
+    "weight":4341,
+    "accel":10,
+    "year":1970
+},
+{
+    "id":7,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":454,
+    "horsepower":220,
+    "weight":4354,
+    "accel":9,
+    "year":1970
+},
+{
+    "id":8,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":440,
+    "horsepower":215,
+    "weight":4312,
+    "accel":8.5,
+    "year":1970
+},
+{
+    "id":9,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":455,
+    "horsepower":225,
+    "weight":4425,
+    "accel":10,
+    "year":1970
+},
+{
+    "id":10,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":390,
+    "horsepower":190,
+    "weight":3850,
+    "accel":8.5,
+    "year":1970
+},
+{
+    "id":11,
+    "cylinders":4,
+    "edispl":133,
+    "horsepower":115,
+    "weight":3090,
+    "accel":17.5,
+    "year":1970
+},
+{
+    "id":12,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":165,
+    "weight":4142,
+    "accel":11.5,
+    "year":1970
+},
+{
+    "id":13,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":153,
+    "weight":4034,
+    "accel":11,
+    "year":1970
+},
+{
+    "id":14,
+    "cylinders":8,
+    "edispl":383,
+    "horsepower":175,
+    "weight":4166,
+    "accel":10.5,
+    "year":1970
+},
+{
+    "id":15,
+    "cylinders":8,
+    "edispl":360,
+    "horsepower":175,
+    "weight":3850,
+    "accel":11,
+    "year":1970
+},
+{
+    "id":16,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":383,
+    "horsepower":170,
+    "weight":3563,
+    "accel":10,
+    "year":1970
+},
+{
+    "id":17,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":340,
+    "horsepower":160,
+    "weight":3609,
+    "accel":8,
+    "year":1970
+},
+{
+    "id":18,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":140,
+    "weight":3353,
+    "accel":8,
+    "year":1970
+},
+{
+    "id":19,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":150,
+    "weight":3761,
+    "accel":9.5,
+    "year":1970
+},
+{
+    "id":20,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":455,
+    "horsepower":225,
+    "weight":3086,
+    "accel":10,
+    "year":1970
+},
+{
+    "id":21,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":113,
+    "horsepower":95,
+    "weight":2372,
+    "accel":15,
+    "year":1970
+},
+{
+    "id":22,
+    "mpg":22,
+    "cylinders":6,
+    "edispl":198,
+    "horsepower":95,
+    "weight":2833,
+    "accel":15.5,
+    "year":1970
+},
+{
+    "id":23,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":199,
+    "horsepower":97,
+    "weight":2774,
+    "accel":15.5,
+    "year":1970
+},
+{
+    "id":24,
+    "mpg":21,
+    "cylinders":6,
+    "edispl":200,
+    "horsepower":85,
+    "weight":2587,
+    "accel":16,
+    "year":1970
+},
+{
+    "id":25,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":88,
+    "weight":2130,
+    "accel":14.5,
+    "year":1970
+},
+{
+    "id":26,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":46,
+    "weight":1835,
+    "accel":20.5,
+    "year":1970
+},
+{
+    "id":27,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":110,
+    "horsepower":87,
+    "weight":2672,
+    "accel":17.5,
+    "year":1970
+},
+{
+    "id":28,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":107,
+    "horsepower":90,
+    "weight":2430,
+    "accel":14.5,
+    "year":1970
+},
+{
+    "id":29,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":104,
+    "horsepower":95,
+    "weight":2375,
+    "accel":17.5,
+    "year":1970
+},
+{
+    "id":30,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":113,
+    "weight":2234,
+    "accel":12.5,
+    "year":1970
+},
+{
+    "id":31,
+    "mpg":21,
+    "cylinders":6,
+    "edispl":199,
+    "horsepower":90,
+    "weight":2648,
+    "accel":15,
+    "year":1970
+},
+{
+    "id":32,
+    "mpg":10,
+    "cylinders":8,
+    "edispl":360,
+    "horsepower":215,
+    "weight":4615,
+    "accel":14,
+    "year":1970
+},
+{
+    "id":33,
+    "mpg":10,
+    "cylinders":8,
+    "edispl":307,
+    "horsepower":200,
+    "weight":4376,
+    "accel":15,
+    "year":1970
+},
+{
+    "id":34,
+    "mpg":11,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":210,
+    "weight":4382,
+    "accel":13.5,
+    "year":1970
+},
+{
+    "id":35,
+    "mpg":9,
+    "cylinders":8,
+    "edispl":304,
+    "horsepower":193,
+    "weight":4732,
+    "accel":18.5,
+    "year":1970
+},
+{
+    "id":36,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":88,
+    "weight":2130,
+    "accel":14.5,
+    "year":1971
+},
+{
+    "id":37,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":90,
+    "weight":2264,
+    "accel":15.5,
+    "year":1971
+},
+{
+    "id":38,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":113,
+    "horsepower":95,
+    "weight":2228,
+    "accel":14,
+    "year":1971
+},
+{
+    "id":39,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":98,
+    "weight":2046,
+    "accel":19,
+    "year":1971
+},
+{
+    "id":40,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":48,
+    "weight":1978,
+    "accel":20,
+    "year":1971
+},
+{
+    "id":41,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":100,
+    "weight":2634,
+    "accel":13,
+    "year":1971
+},
+{
+    "id":42,
+    "mpg":16,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":105,
+    "weight":3439,
+    "accel":15.5,
+    "year":1971
+},
+{
+    "id":43,
+    "mpg":17,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":100,
+    "weight":3329,
+    "accel":15.5,
+    "year":1971
+},
+{
+    "id":44,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":88,
+    "weight":3302,
+    "accel":15.5,
+    "year":1971
+},
+{
+    "id":45,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":100,
+    "weight":3288,
+    "accel":15.5,
+    "year":1971
+},
+{
+    "id":46,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":165,
+    "weight":4209,
+    "accel":12,
+    "year":1971
+},
+{
+    "id":47,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":175,
+    "weight":4464,
+    "accel":11.5,
+    "year":1971
+},
+{
+    "id":48,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":153,
+    "weight":4154,
+    "accel":13.5,
+    "year":1971
+},
+{
+    "id":49,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":4096,
+    "accel":13,
+    "year":1971
+},
+{
+    "id":50,
+    "mpg":12,
+    "cylinders":8,
+    "edispl":383,
+    "horsepower":180,
+    "weight":4955,
+    "accel":11.5,
+    "year":1971
+},
+{
+    "id":51,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":170,
+    "weight":4746,
+    "accel":12,
+    "year":1971
+},
+{
+    "id":52,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":175,
+    "weight":5140,
+    "accel":12,
+    "year":1971
+},
+{
+    "id":53,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":258,
+    "horsepower":110,
+    "weight":2962,
+    "accel":13.5,
+    "year":1971
+},
+{
+    "id":54,
+    "mpg":22,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":72,
+    "weight":2408,
+    "accel":19,
+    "year":1971
+},
+{
+    "id":55,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":100,
+    "weight":3282,
+    "accel":15,
+    "year":1971
+},
+{
+    "id":56,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":88,
+    "weight":3139,
+    "accel":14.5,
+    "year":1971
+},
+{
+    "id":57,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":122,
+    "horsepower":86,
+    "weight":2220,
+    "accel":14,
+    "year":1971
+},
+{
+    "id":58,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":116,
+    "horsepower":90,
+    "weight":2123,
+    "accel":14,
+    "year":1971
+},
+{
+    "id":59,
+    "mpg":30,
+    "cylinders":4,
+    "edispl":79,
+    "horsepower":70,
+    "weight":2074,
+    "accel":19.5,
+    "year":1971
+},
+{
+    "id":60,
+    "mpg":30,
+    "cylinders":4,
+    "edispl":88,
+    "horsepower":76,
+    "weight":2065,
+    "accel":14.5,
+    "year":1971
+},
+{
+    "id":61,
+    "mpg":31,
+    "cylinders":4,
+    "edispl":71,
+    "horsepower":65,
+    "weight":1773,
+    "accel":19,
+    "year":1971
+},
+{
+    "id":62,
+    "mpg":35,
+    "cylinders":4,
+    "edispl":72,
+    "horsepower":69,
+    "weight":1613,
+    "accel":18,
+    "year":1971
+},
+{
+    "id":63,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":60,
+    "weight":1834,
+    "accel":19,
+    "year":1971
+},
+{
+    "id":64,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":70,
+    "weight":1955,
+    "accel":20.5,
+    "year":1971
+},
+{
+    "id":65,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":113,
+    "horsepower":95,
+    "weight":2278,
+    "accel":15.5,
+    "year":1972
+},
+{
+    "id":66,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":80,
+    "weight":2126,
+    "accel":17,
+    "year":1972
+},
+{
+    "id":67,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":54,
+    "weight":2254,
+    "accel":23.5,
+    "year":1972
+},
+{
+    "id":68,
+    "mpg":20,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":90,
+    "weight":2408,
+    "accel":19.5,
+    "year":1972
+},
+{
+    "id":69,
+    "mpg":21,
+    "cylinders":4,
+    "edispl":122,
+    "horsepower":86,
+    "weight":2226,
+    "accel":16.5,
+    "year":1972
+},
+{
+    "id":70,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":165,
+    "weight":4274,
+    "accel":12,
+    "year":1972
+},
+{
+    "id":71,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":175,
+    "weight":4385,
+    "accel":12,
+    "year":1972
+},
+{
+    "id":72,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":4135,
+    "accel":13.5,
+    "year":1972
+},
+{
+    "id":73,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":153,
+    "weight":4129,
+    "accel":13,
+    "year":1972
+},
+{
+    "id":74,
+    "mpg":17,
+    "cylinders":8,
+    "edispl":304,
+    "horsepower":150,
+    "weight":3672,
+    "accel":11.5,
+    "year":1972
+},
+{
+    "id":75,
+    "mpg":11,
+    "cylinders":8,
+    "edispl":429,
+    "horsepower":208,
+    "weight":4633,
+    "accel":11,
+    "year":1972
+},
+{
+    "id":76,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":155,
+    "weight":4502,
+    "accel":13.5,
+    "year":1972
+},
+{
+    "id":77,
+    "mpg":12,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":160,
+    "weight":4456,
+    "accel":13.5,
+    "year":1972
+},
+{
+    "id":78,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":190,
+    "weight":4422,
+    "accel":12.5,
+    "year":1972
+},
+{
+    "id":79,
+    "mpg":19,
+    "cylinders":3,
+    "edispl":70,
+    "horsepower":97,
+    "weight":2330,
+    "accel":13.5,
+    "year":1972
+},
+{
+    "id":80,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":304,
+    "horsepower":150,
+    "weight":3892,
+    "accel":12.5,
+    "year":1972
+},
+{
+    "id":81,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":307,
+    "horsepower":130,
+    "weight":4098,
+    "accel":14,
+    "year":1972
+},
+{
+    "id":82,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":140,
+    "weight":4294,
+    "accel":16,
+    "year":1972
+},
+{
+    "id":83,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":4077,
+    "accel":14,
+    "year":1972
+},
+{
+    "id":84,
+    "mpg":18,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":112,
+    "weight":2933,
+    "accel":14.5,
+    "year":1972
+},
+{
+    "id":85,
+    "mpg":22,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":76,
+    "weight":2511,
+    "accel":18,
+    "year":1972
+},
+{
+    "id":86,
+    "mpg":21,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":87,
+    "weight":2979,
+    "accel":19.5,
+    "year":1972
+},
+{
+    "id":87,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":96,
+    "horsepower":69,
+    "weight":2189,
+    "accel":18,
+    "year":1972
+},
+{
+    "id":88,
+    "mpg":22,
+    "cylinders":4,
+    "edispl":122,
+    "horsepower":86,
+    "weight":2395,
+    "accel":16,
+    "year":1972
+},
+{
+    "id":89,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":92,
+    "weight":2288,
+    "accel":17,
+    "year":1972
+},
+{
+    "id":90,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":97,
+    "weight":2506,
+    "accel":14.5,
+    "year":1972
+},
+{
+    "id":91,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":80,
+    "weight":2164,
+    "accel":15,
+    "year":1972
+},
+{
+    "id":92,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":88,
+    "weight":2100,
+    "accel":16.5,
+    "year":1972
+},
+{
+    "id":93,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":175,
+    "weight":4100,
+    "accel":13,
+    "year":1973
+},
+{
+    "id":94,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":304,
+    "horsepower":150,
+    "weight":3672,
+    "accel":11.5,
+    "year":1973
+},
+{
+    "id":95,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":145,
+    "weight":3988,
+    "accel":13,
+    "year":1973
+},
+{
+    "id":96,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":137,
+    "weight":4042,
+    "accel":14.5,
+    "year":1973
+},
+{
+    "id":97,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":3777,
+    "accel":12.5,
+    "year":1973
+},
+{
+    "id":98,
+    "mpg":12,
+    "cylinders":8,
+    "edispl":429,
+    "horsepower":198,
+    "weight":4952,
+    "accel":11.5,
+    "year":1973
+},
+{
+    "id":99,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":150,
+    "weight":4464,
+    "accel":12,
+    "year":1973
+},
+{
+    "id":100,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":158,
+    "weight":4363,
+    "accel":13,
+    "year":1973
+},
+{
+    "id":101,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":4237,
+    "accel":14.5,
+    "year":1973
+},
+{
+    "id":102,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":440,
+    "horsepower":215,
+    "weight":4735,
+    "accel":11,
+    "year":1973
+},
+{
+    "id":103,
+    "mpg":12,
+    "cylinders":8,
+    "edispl":455,
+    "horsepower":225,
+    "weight":4951,
+    "accel":11,
+    "year":1973
+},
+{
+    "id":104,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":360,
+    "horsepower":175,
+    "weight":3821,
+    "accel":11,
+    "year":1973
+},
+{
+    "id":105,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":105,
+    "weight":3121,
+    "accel":16.5,
+    "year":1973
+},
+{
+    "id":106,
+    "mpg":16,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":100,
+    "weight":3278,
+    "accel":18,
+    "year":1973
+},
+{
+    "id":107,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":100,
+    "weight":2945,
+    "accel":16,
+    "year":1973
+},
+{
+    "id":108,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":88,
+    "weight":3021,
+    "accel":16.5,
+    "year":1973
+},
+{
+    "id":109,
+    "mpg":23,
+    "cylinders":6,
+    "edispl":198,
+    "horsepower":95,
+    "weight":2904,
+    "accel":16,
+    "year":1973
+},
+{
+    "id":110,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":46,
+    "weight":1950,
+    "accel":21,
+    "year":1973
+},
+{
+    "id":111,
+    "mpg":11,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":150,
+    "weight":4997,
+    "accel":14,
+    "year":1973
+},
+{
+    "id":112,
+    "mpg":12,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":167,
+    "weight":4906,
+    "accel":12.5,
+    "year":1973
+},
+{
+    "id":113,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":360,
+    "horsepower":170,
+    "weight":4654,
+    "accel":13,
+    "year":1973
+},
+{
+    "id":114,
+    "mpg":12,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":180,
+    "weight":4499,
+    "accel":12.5,
+    "year":1973
+},
+{
+    "id":115,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":100,
+    "weight":2789,
+    "accel":15,
+    "year":1973
+},
+{
+    "id":116,
+    "mpg":20,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":88,
+    "weight":2279,
+    "accel":19,
+    "year":1973
+},
+{
+    "id":117,
+    "mpg":21,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":72,
+    "weight":2401,
+    "accel":19.5,
+    "year":1973
+},
+{
+    "id":118,
+    "mpg":22,
+    "cylinders":4,
+    "edispl":108,
+    "horsepower":94,
+    "weight":2379,
+    "accel":16.5,
+    "year":1973
+},
+{
+    "id":119,
+    "mpg":18,
+    "cylinders":3,
+    "edispl":70,
+    "horsepower":90,
+    "weight":2124,
+    "accel":13.5,
+    "year":1973
+},
+{
+    "id":120,
+    "mpg":19,
+    "cylinders":4,
+    "edispl":122,
+    "horsepower":85,
+    "weight":2310,
+    "accel":18.5,
+    "year":1973
+},
+{
+    "id":121,
+    "mpg":21,
+    "cylinders":6,
+    "edispl":155,
+    "horsepower":107,
+    "weight":2472,
+    "accel":14,
+    "year":1973
+},
+{
+    "id":122,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":90,
+    "weight":2265,
+    "accel":15.5,
+    "year":1973
+},
+{
+    "id":123,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":145,
+    "weight":4082,
+    "accel":13,
+    "year":1973
+},
+{
+    "id":124,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":230,
+    "weight":4278,
+    "accel":9.5,
+    "year":1973
+},
+{
+    "id":125,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":68,
+    "horsepower":49,
+    "weight":1867,
+    "accel":19.5,
+    "year":1973
+},
+{
+    "id":126,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":116,
+    "horsepower":75,
+    "weight":2158,
+    "accel":15.5,
+    "year":1973
+},
+{
+    "id":127,
+    "mpg":20,
+    "cylinders":4,
+    "edispl":114,
+    "horsepower":91,
+    "weight":2582,
+    "accel":14,
+    "year":1973
+},
+{
+    "id":128,
+    "mpg":19,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":112,
+    "weight":2868,
+    "accel":15.5,
+    "year":1973
+},
+{
+    "id":129,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":3399,
+    "accel":11,
+    "year":1973
+},
+{
+    "id":130,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":110,
+    "weight":2660,
+    "accel":14,
+    "year":1973
+},
+{
+    "id":131,
+    "mpg":20,
+    "cylinders":6,
+    "edispl":156,
+    "horsepower":122,
+    "weight":2807,
+    "accel":13.5,
+    "year":1973
+},
+{
+    "id":132,
+    "mpg":11,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":180,
+    "weight":3664,
+    "accel":11,
+    "year":1973
+},
+{
+    "id":133,
+    "mpg":20,
+    "cylinders":6,
+    "edispl":198,
+    "horsepower":95,
+    "weight":3102,
+    "accel":16.5,
+    "year":1974
+},
+{
+    "id":134,
+    "mpg":21,
+    "cylinders":6,
+    "edispl":200,
+    "weight":2875,
+    "accel":17,
+    "year":1974
+},
+{
+    "id":135,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":100,
+    "weight":2901,
+    "accel":16,
+    "year":1974
+},
+{
+    "id":136,
+    "mpg":15,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":100,
+    "weight":3336,
+    "accel":17,
+    "year":1974
+},
+{
+    "id":137,
+    "mpg":31,
+    "cylinders":4,
+    "edispl":79,
+    "horsepower":67,
+    "weight":1950,
+    "accel":19,
+    "year":1974
+},
+{
+    "id":138,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":122,
+    "horsepower":80,
+    "weight":2451,
+    "accel":16.5,
+    "year":1974
+},
+{
+    "id":139,
+    "mpg":32,
+    "cylinders":4,
+    "edispl":71,
+    "horsepower":65,
+    "weight":1836,
+    "accel":21,
+    "year":1974
+},
+{
+    "id":140,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":75,
+    "weight":2542,
+    "accel":17,
+    "year":1974
+},
+{
+    "id":141,
+    "mpg":16,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":100,
+    "weight":3781,
+    "accel":17,
+    "year":1974
+},
+{
+    "id":142,
+    "mpg":16,
+    "cylinders":6,
+    "edispl":258,
+    "horsepower":110,
+    "weight":3632,
+    "accel":18,
+    "year":1974
+},
+{
+    "id":143,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":105,
+    "weight":3613,
+    "accel":16.5,
+    "year":1974
+},
+{
+    "id":144,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":140,
+    "weight":4141,
+    "accel":14,
+    "year":1974
+},
+{
+    "id":145,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":150,
+    "weight":4699,
+    "accel":14.5,
+    "year":1974
+},
+{
+    "id":146,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":4457,
+    "accel":13.5,
+    "year":1974
+},
+{
+    "id":147,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":140,
+    "weight":4638,
+    "accel":16,
+    "year":1974
+},
+{
+    "id":148,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":304,
+    "horsepower":150,
+    "weight":4257,
+    "accel":15.5,
+    "year":1974
+},
+{
+    "id":149,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":83,
+    "weight":2219,
+    "accel":16.5,
+    "year":1974
+},
+{
+    "id":150,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":79,
+    "horsepower":67,
+    "weight":1963,
+    "accel":15.5,
+    "year":1974
+},
+{
+    "id":151,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":78,
+    "weight":2300,
+    "accel":14.5,
+    "year":1974
+},
+{
+    "id":152,
+    "mpg":31,
+    "cylinders":4,
+    "edispl":76,
+    "horsepower":52,
+    "weight":1649,
+    "accel":16.5,
+    "year":1974
+},
+{
+    "id":153,
+    "mpg":32,
+    "cylinders":4,
+    "edispl":83,
+    "horsepower":61,
+    "weight":2003,
+    "accel":19,
+    "year":1974
+},
+{
+    "id":154,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":75,
+    "weight":2125,
+    "accel":14.5,
+    "year":1974
+},
+{
+    "id":155,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":75,
+    "weight":2108,
+    "accel":15.5,
+    "year":1974
+},
+{
+    "id":156,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":116,
+    "horsepower":75,
+    "weight":2246,
+    "accel":14,
+    "year":1974
+},
+{
+    "id":157,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":97,
+    "weight":2489,
+    "accel":15,
+    "year":1974
+},
+{
+    "id":158,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":108,
+    "horsepower":93,
+    "weight":2391,
+    "accel":15.5,
+    "year":1974
+},
+{
+    "id":159,
+    "mpg":31,
+    "cylinders":4,
+    "edispl":79,
+    "horsepower":67,
+    "weight":2000,
+    "accel":16,
+    "year":1974
+},
+{
+    "id":160,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":95,
+    "weight":3264,
+    "accel":16,
+    "year":1975
+},
+{
+    "id":161,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":105,
+    "weight":3459,
+    "accel":16,
+    "year":1975
+},
+{
+    "id":162,
+    "mpg":15,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":72,
+    "weight":3432,
+    "accel":21,
+    "year":1975
+},
+{
+    "id":163,
+    "mpg":15,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":72,
+    "weight":3158,
+    "accel":19.5,
+    "year":1975
+},
+{
+    "id":164,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":170,
+    "weight":4668,
+    "accel":11.5,
+    "year":1975
+},
+{
+    "id":165,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":145,
+    "weight":4440,
+    "accel":14,
+    "year":1975
+},
+{
+    "id":166,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":4498,
+    "accel":14.5,
+    "year":1975
+},
+{
+    "id":167,
+    "mpg":14,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":148,
+    "weight":4657,
+    "accel":13.5,
+    "year":1975
+},
+{
+    "id":168,
+    "mpg":17,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":110,
+    "weight":3907,
+    "accel":21,
+    "year":1975
+},
+{
+    "id":169,
+    "mpg":16,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":105,
+    "weight":3897,
+    "accel":18.5,
+    "year":1975
+},
+{
+    "id":170,
+    "mpg":15,
+    "cylinders":6,
+    "edispl":258,
+    "horsepower":110,
+    "weight":3730,
+    "accel":19,
+    "year":1975
+},
+{
+    "id":171,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":95,
+    "weight":3785,
+    "accel":19,
+    "year":1975
+},
+{
+    "id":172,
+    "mpg":21,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":110,
+    "weight":3039,
+    "accel":15,
+    "year":1975
+},
+{
+    "id":173,
+    "mpg":20,
+    "cylinders":8,
+    "edispl":262,
+    "horsepower":110,
+    "weight":3221,
+    "accel":13.5,
+    "year":1975
+},
+{
+    "id":174,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":129,
+    "weight":3169,
+    "accel":12,
+    "year":1975
+},
+{
+    "id":175,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":75,
+    "weight":2171,
+    "accel":16,
+    "year":1975
+},
+{
+    "id":176,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":83,
+    "weight":2639,
+    "accel":17,
+    "year":1975
+},
+{
+    "id":177,
+    "mpg":20,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":100,
+    "weight":2914,
+    "accel":16,
+    "year":1975
+},
+{
+    "id":178,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":78,
+    "weight":2592,
+    "accel":18.5,
+    "year":1975
+},
+{
+    "id":179,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":134,
+    "horsepower":96,
+    "weight":2702,
+    "accel":13.5,
+    "year":1975
+},
+{
+    "id":180,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":71,
+    "weight":2223,
+    "accel":16.5,
+    "year":1975
+},
+{
+    "id":181,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":119,
+    "horsepower":97,
+    "weight":2545,
+    "accel":17,
+    "year":1975
+},
+{
+    "id":182,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":171,
+    "horsepower":97,
+    "weight":2984,
+    "accel":14.5,
+    "year":1975
+},
+{
+    "id":183,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":70,
+    "weight":1937,
+    "accel":14,
+    "year":1975
+},
+{
+    "id":184,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":90,
+    "weight":3211,
+    "accel":17,
+    "year":1975
+},
+{
+    "id":185,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":115,
+    "horsepower":95,
+    "weight":2694,
+    "accel":15,
+    "year":1975
+},
+{
+    "id":186,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":88,
+    "weight":2957,
+    "accel":17,
+    "year":1975
+},
+{
+    "id":187,
+    "mpg":22,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":98,
+    "weight":2945,
+    "accel":14.5,
+    "year":1975
+},
+{
+    "id":188,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":115,
+    "weight":2671,
+    "accel":13.5,
+    "year":1975
+},
+{
+    "id":189,
+    "mpg":33,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":53,
+    "weight":1795,
+    "accel":17.5,
+    "year":1975
+},
+{
+    "id":190,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":107,
+    "horsepower":86,
+    "weight":2464,
+    "accel":15.5,
+    "year":1976
+},
+{
+    "id":191,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":116,
+    "horsepower":81,
+    "weight":2220,
+    "accel":16.9,
+    "year":1976
+},
+{
+    "id":192,
+    "mpg":25,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":92,
+    "weight":2572,
+    "accel":14.9,
+    "year":1976
+},
+{
+    "id":193,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":79,
+    "weight":2255,
+    "accel":17.7,
+    "year":1976
+},
+{
+    "id":194,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":101,
+    "horsepower":83,
+    "weight":2202,
+    "accel":15.3,
+    "year":1976
+},
+{
+    "id":195,
+    "mpg":17.5,
+    "cylinders":8,
+    "edispl":305,
+    "horsepower":140,
+    "weight":4215,
+    "accel":13,
+    "year":1976
+},
+{
+    "id":196,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":4190,
+    "accel":13,
+    "year":1976
+},
+{
+    "id":197,
+    "mpg":15.5,
+    "cylinders":8,
+    "edispl":304,
+    "horsepower":120,
+    "weight":3962,
+    "accel":13.9,
+    "year":1976
+},
+{
+    "id":198,
+    "mpg":14.5,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":152,
+    "weight":4215,
+    "accel":12.8,
+    "year":1976
+},
+{
+    "id":199,
+    "mpg":22,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":100,
+    "weight":3233,
+    "accel":15.4,
+    "year":1976
+},
+{
+    "id":200,
+    "mpg":22,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":105,
+    "weight":3353,
+    "accel":14.5,
+    "year":1976
+},
+{
+    "id":201,
+    "mpg":24,
+    "cylinders":6,
+    "edispl":200,
+    "horsepower":81,
+    "weight":3012,
+    "accel":17.6,
+    "year":1976
+},
+{
+    "id":202,
+    "mpg":22.5,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":90,
+    "weight":3085,
+    "accel":17.6,
+    "year":1976
+},
+{
+    "id":203,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":85,
+    "horsepower":52,
+    "weight":2035,
+    "accel":22.2,
+    "year":1976
+},
+{
+    "id":204,
+    "mpg":24.5,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":60,
+    "weight":2164,
+    "accel":22.1,
+    "year":1976
+},
+{
+    "id":205,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":70,
+    "weight":1937,
+    "accel":14.2,
+    "year":1976
+},
+{
+    "id":206,
+    "mpg":33,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":53,
+    "weight":1795,
+    "accel":17.4,
+    "year":1976
+},
+{
+    "id":207,
+    "mpg":20,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":100,
+    "weight":3651,
+    "accel":17.7,
+    "year":1976
+},
+{
+    "id":208,
+    "mpg":18,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":78,
+    "weight":3574,
+    "accel":21,
+    "year":1976
+},
+{
+    "id":209,
+    "mpg":18.5,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":110,
+    "weight":3645,
+    "accel":16.2,
+    "year":1976
+},
+{
+    "id":210,
+    "mpg":17.5,
+    "cylinders":6,
+    "edispl":258,
+    "horsepower":95,
+    "weight":3193,
+    "accel":17.8,
+    "year":1976
+},
+{
+    "id":211,
+    "mpg":29.5,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":71,
+    "weight":1825,
+    "accel":12.2,
+    "year":1976
+},
+{
+    "id":212,
+    "mpg":32,
+    "cylinders":4,
+    "edispl":85,
+    "horsepower":70,
+    "weight":1990,
+    "accel":17,
+    "year":1976
+},
+{
+    "id":213,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":75,
+    "weight":2155,
+    "accel":16.4,
+    "year":1976
+},
+{
+    "id":214,
+    "mpg":26.5,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":72,
+    "weight":2565,
+    "accel":13.6,
+    "year":1976
+},
+{
+    "id":215,
+    "mpg":20,
+    "cylinders":4,
+    "edispl":130,
+    "horsepower":102,
+    "weight":3150,
+    "accel":15.7,
+    "year":1976
+},
+{
+    "id":216,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":3940,
+    "accel":13.2,
+    "year":1976
+},
+{
+    "id":217,
+    "mpg":19,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":88,
+    "weight":3270,
+    "accel":21.9,
+    "year":1976
+},
+{
+    "id":218,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":156,
+    "horsepower":108,
+    "weight":2930,
+    "accel":15.5,
+    "year":1976
+},
+{
+    "id":219,
+    "mpg":16.5,
+    "cylinders":6,
+    "edispl":168,
+    "horsepower":120,
+    "weight":3820,
+    "accel":16.7,
+    "year":1976
+},
+{
+    "id":220,
+    "mpg":16.5,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":180,
+    "weight":4380,
+    "accel":12.1,
+    "year":1976
+},
+{
+    "id":221,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":145,
+    "weight":4055,
+    "accel":12,
+    "year":1976
+},
+{
+    "id":222,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":130,
+    "weight":3870,
+    "accel":15,
+    "year":1976
+},
+{
+    "id":223,
+    "mpg":13,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":150,
+    "weight":3755,
+    "accel":14,
+    "year":1976
+},
+{
+    "id":224,
+    "mpg":31.5,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":68,
+    "weight":2045,
+    "accel":18.5,
+    "year":1977
+},
+{
+    "id":225,
+    "mpg":30,
+    "cylinders":4,
+    "edispl":111,
+    "horsepower":80,
+    "weight":2155,
+    "accel":14.8,
+    "year":1977
+},
+{
+    "id":226,
+    "mpg":36,
+    "cylinders":4,
+    "edispl":79,
+    "horsepower":58,
+    "weight":1825,
+    "accel":18.6,
+    "year":1977
+},
+{
+    "id":227,
+    "mpg":25.5,
+    "cylinders":4,
+    "edispl":122,
+    "horsepower":96,
+    "weight":2300,
+    "accel":15.5,
+    "year":1977
+},
+{
+    "id":228,
+    "mpg":33.5,
+    "cylinders":4,
+    "edispl":85,
+    "horsepower":70,
+    "weight":1945,
+    "accel":16.8,
+    "year":1977
+},
+{
+    "id":229,
+    "mpg":17.5,
+    "cylinders":8,
+    "edispl":305,
+    "horsepower":145,
+    "weight":3880,
+    "accel":12.5,
+    "year":1977
+},
+{
+    "id":230,
+    "mpg":17,
+    "cylinders":8,
+    "edispl":260,
+    "horsepower":110,
+    "weight":4060,
+    "accel":19,
+    "year":1977
+},
+{
+    "id":231,
+    "mpg":15.5,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":145,
+    "weight":4140,
+    "accel":13.7,
+    "year":1977
+},
+{
+    "id":232,
+    "mpg":15,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":130,
+    "weight":4295,
+    "accel":14.9,
+    "year":1977
+},
+{
+    "id":233,
+    "mpg":17.5,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":110,
+    "weight":3520,
+    "accel":16.4,
+    "year":1977
+},
+{
+    "id":234,
+    "mpg":20.5,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":105,
+    "weight":3425,
+    "accel":16.9,
+    "year":1977
+},
+{
+    "id":235,
+    "mpg":19,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":100,
+    "weight":3630,
+    "accel":17.7,
+    "year":1977
+},
+{
+    "id":236,
+    "mpg":18.5,
+    "cylinders":6,
+    "edispl":250,
+    "horsepower":98,
+    "weight":3525,
+    "accel":19,
+    "year":1977
+},
+{
+    "id":237,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":180,
+    "weight":4220,
+    "accel":11.1,
+    "year":1977
+},
+{
+    "id":238,
+    "mpg":15.5,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":170,
+    "weight":4165,
+    "accel":11.4,
+    "year":1977
+},
+{
+    "id":239,
+    "mpg":15.5,
+    "cylinders":8,
+    "edispl":400,
+    "horsepower":190,
+    "weight":4325,
+    "accel":12.2,
+    "year":1977
+},
+{
+    "id":240,
+    "mpg":16,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":149,
+    "weight":4335,
+    "accel":14.5,
+    "year":1977
+},
+{
+    "id":241,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":78,
+    "weight":1940,
+    "accel":14.5,
+    "year":1977
+},
+{
+    "id":242,
+    "mpg":24.5,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":88,
+    "weight":2740,
+    "accel":16,
+    "year":1977
+},
+{
+    "id":243,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":75,
+    "weight":2265,
+    "accel":18.2,
+    "year":1977
+},
+{
+    "id":244,
+    "mpg":25.5,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":89,
+    "weight":2755,
+    "accel":15.8,
+    "year":1977
+},
+{
+    "id":245,
+    "mpg":30.5,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":63,
+    "weight":2051,
+    "accel":17,
+    "year":1977
+},
+{
+    "id":246,
+    "mpg":33.5,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":83,
+    "weight":2075,
+    "accel":15.9,
+    "year":1977
+},
+{
+    "id":247,
+    "mpg":30,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":67,
+    "weight":1985,
+    "accel":16.4,
+    "year":1977
+},
+{
+    "id":248,
+    "mpg":30.5,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":78,
+    "weight":2190,
+    "accel":14.1,
+    "year":1977
+},
+{
+    "id":249,
+    "mpg":22,
+    "cylinders":6,
+    "edispl":146,
+    "horsepower":97,
+    "weight":2815,
+    "accel":14.5,
+    "year":1977
+},
+{
+    "id":250,
+    "mpg":21.5,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":110,
+    "weight":2600,
+    "accel":12.8,
+    "year":1977
+},
+{
+    "id":251,
+    "mpg":21.5,
+    "cylinders":3,
+    "edispl":80,
+    "horsepower":110,
+    "weight":2720,
+    "accel":13.5,
+    "year":1977
+},
+{
+    "id":252,
+    "mpg":43.1,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":48,
+    "weight":1985,
+    "accel":21.5,
+    "year":1978
+},
+{
+    "id":253,
+    "mpg":36.1,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":66,
+    "weight":1800,
+    "accel":14.4,
+    "year":1978
+},
+{
+    "id":254,
+    "mpg":32.8,
+    "cylinders":4,
+    "edispl":78,
+    "horsepower":52,
+    "weight":1985,
+    "accel":19.4,
+    "year":1978
+},
+{
+    "id":255,
+    "mpg":39.4,
+    "cylinders":4,
+    "edispl":85,
+    "horsepower":70,
+    "weight":2070,
+    "accel":18.6,
+    "year":1978
+},
+{
+    "id":256,
+    "mpg":36.1,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":60,
+    "weight":1800,
+    "accel":16.4,
+    "year":1978
+},
+{
+    "id":257,
+    "mpg":19.9,
+    "cylinders":8,
+    "edispl":260,
+    "horsepower":110,
+    "weight":3365,
+    "accel":15.5,
+    "year":1978
+},
+{
+    "id":258,
+    "mpg":19.4,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":140,
+    "weight":3735,
+    "accel":13.2,
+    "year":1978
+},
+{
+    "id":259,
+    "mpg":20.2,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":139,
+    "weight":3570,
+    "accel":12.8,
+    "year":1978
+},
+{
+    "id":260,
+    "mpg":19.2,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":105,
+    "weight":3535,
+    "accel":19.2,
+    "year":1978
+},
+{
+    "id":261,
+    "mpg":20.5,
+    "cylinders":6,
+    "edispl":200,
+    "horsepower":95,
+    "weight":3155,
+    "accel":18.2,
+    "year":1978
+},
+{
+    "id":262,
+    "mpg":20.2,
+    "cylinders":6,
+    "edispl":200,
+    "horsepower":85,
+    "weight":2965,
+    "accel":15.8,
+    "year":1978
+},
+{
+    "id":263,
+    "mpg":25.1,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":88,
+    "weight":2720,
+    "accel":15.4,
+    "year":1978
+},
+{
+    "id":264,
+    "mpg":20.5,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":100,
+    "weight":3430,
+    "accel":17.2,
+    "year":1978
+},
+{
+    "id":265,
+    "mpg":19.4,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":90,
+    "weight":3210,
+    "accel":17.2,
+    "year":1978
+},
+{
+    "id":266,
+    "mpg":20.6,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":105,
+    "weight":3380,
+    "accel":15.8,
+    "year":1978
+},
+{
+    "id":267,
+    "mpg":20.8,
+    "cylinders":6,
+    "edispl":200,
+    "horsepower":85,
+    "weight":3070,
+    "accel":16.7,
+    "year":1978
+},
+{
+    "id":268,
+    "mpg":18.6,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":110,
+    "weight":3620,
+    "accel":18.7,
+    "year":1978
+},
+{
+    "id":269,
+    "mpg":18.1,
+    "cylinders":6,
+    "edispl":258,
+    "horsepower":120,
+    "weight":3410,
+    "accel":15.1,
+    "year":1978
+},
+{
+    "id":270,
+    "mpg":19.2,
+    "cylinders":8,
+    "edispl":305,
+    "horsepower":145,
+    "weight":3425,
+    "accel":13.2,
+    "year":1978
+},
+{
+    "id":271,
+    "mpg":17.7,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":165,
+    "weight":3445,
+    "accel":13.4,
+    "year":1978
+},
+{
+    "id":272,
+    "mpg":18.1,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":139,
+    "weight":3205,
+    "accel":11.2,
+    "year":1978
+},
+{
+    "id":273,
+    "mpg":17.5,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":140,
+    "weight":4080,
+    "accel":13.7,
+    "year":1978
+},
+{
+    "id":274,
+    "mpg":30,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":68,
+    "weight":2155,
+    "accel":16.5,
+    "year":1978
+},
+{
+    "id":275,
+    "mpg":27.5,
+    "cylinders":4,
+    "edispl":134,
+    "horsepower":95,
+    "weight":2560,
+    "accel":14.2,
+    "year":1978
+},
+{
+    "id":276,
+    "mpg":27.2,
+    "cylinders":4,
+    "edispl":119,
+    "horsepower":97,
+    "weight":2300,
+    "accel":14.7,
+    "year":1978
+},
+{
+    "id":277,
+    "mpg":30.9,
+    "cylinders":4,
+    "edispl":105,
+    "horsepower":75,
+    "weight":2230,
+    "accel":14.5,
+    "year":1978
+},
+{
+    "id":278,
+    "mpg":21.1,
+    "cylinders":4,
+    "edispl":134,
+    "horsepower":95,
+    "weight":2515,
+    "accel":14.8,
+    "year":1978
+},
+{
+    "id":279,
+    "mpg":23.2,
+    "cylinders":4,
+    "edispl":156,
+    "horsepower":105,
+    "weight":2745,
+    "accel":16.7,
+    "year":1978
+},
+{
+    "id":280,
+    "mpg":23.8,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":85,
+    "weight":2855,
+    "accel":17.6,
+    "year":1978
+},
+{
+    "id":281,
+    "mpg":23.9,
+    "cylinders":4,
+    "edispl":119,
+    "horsepower":97,
+    "weight":2405,
+    "accel":14.9,
+    "year":1978
+},
+{
+    "id":282,
+    "mpg":20.3,
+    "cylinders":5,
+    "edispl":131,
+    "horsepower":103,
+    "weight":2830,
+    "accel":15.9,
+    "year":1978
+},
+{
+    "id":283,
+    "mpg":17,
+    "cylinders":6,
+    "edispl":163,
+    "horsepower":125,
+    "weight":3140,
+    "accel":13.6,
+    "year":1978
+},
+{
+    "id":284,
+    "mpg":21.6,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":115,
+    "weight":2795,
+    "accel":15.7,
+    "year":1978
+},
+{
+    "id":285,
+    "mpg":16.2,
+    "cylinders":6,
+    "edispl":163,
+    "horsepower":133,
+    "weight":3410,
+    "accel":15.8,
+    "year":1978
+},
+{
+    "id":286,
+    "mpg":31.5,
+    "cylinders":4,
+    "edispl":89,
+    "horsepower":71,
+    "weight":1990,
+    "accel":14.9,
+    "year":1978
+},
+{
+    "id":287,
+    "mpg":29.5,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":68,
+    "weight":2135,
+    "accel":16.6,
+    "year":1978
+},
+{
+    "id":288,
+    "mpg":21.5,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":115,
+    "weight":3245,
+    "accel":15.4,
+    "year":1979
+},
+{
+    "id":289,
+    "mpg":19.8,
+    "cylinders":6,
+    "edispl":200,
+    "horsepower":85,
+    "weight":2990,
+    "accel":18.2,
+    "year":1979
+},
+{
+    "id":290,
+    "mpg":22.3,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":88,
+    "weight":2890,
+    "accel":17.3,
+    "year":1979
+},
+{
+    "id":291,
+    "mpg":20.2,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":90,
+    "weight":3265,
+    "accel":18.2,
+    "year":1979
+},
+{
+    "id":292,
+    "mpg":20.6,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":110,
+    "weight":3360,
+    "accel":16.6,
+    "year":1979
+},
+{
+    "id":293,
+    "mpg":17,
+    "cylinders":8,
+    "edispl":305,
+    "horsepower":130,
+    "weight":3840,
+    "accel":15.4,
+    "year":1979
+},
+{
+    "id":294,
+    "mpg":17.6,
+    "cylinders":8,
+    "edispl":302,
+    "horsepower":129,
+    "weight":3725,
+    "accel":13.4,
+    "year":1979
+},
+{
+    "id":295,
+    "mpg":16.5,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":138,
+    "weight":3955,
+    "accel":13.2,
+    "year":1979
+},
+{
+    "id":296,
+    "mpg":18.2,
+    "cylinders":8,
+    "edispl":318,
+    "horsepower":135,
+    "weight":3830,
+    "accel":15.2,
+    "year":1979
+},
+{
+    "id":297,
+    "mpg":16.9,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":155,
+    "weight":4360,
+    "accel":14.9,
+    "year":1979
+},
+{
+    "id":298,
+    "mpg":15.5,
+    "cylinders":8,
+    "edispl":351,
+    "horsepower":142,
+    "weight":4054,
+    "accel":14.3,
+    "year":1979
+},
+{
+    "id":299,
+    "mpg":19.2,
+    "cylinders":8,
+    "edispl":267,
+    "horsepower":125,
+    "weight":3605,
+    "accel":15,
+    "year":1979
+},
+{
+    "id":300,
+    "mpg":18.5,
+    "cylinders":8,
+    "edispl":360,
+    "horsepower":150,
+    "weight":3940,
+    "accel":13,
+    "year":1979
+},
+{
+    "id":301,
+    "mpg":31.9,
+    "cylinders":4,
+    "edispl":89,
+    "horsepower":71,
+    "weight":1925,
+    "accel":14,
+    "year":1979
+},
+{
+    "id":302,
+    "mpg":34.1,
+    "cylinders":4,
+    "edispl":86,
+    "horsepower":65,
+    "weight":1975,
+    "accel":15.2,
+    "year":1979
+},
+{
+    "id":303,
+    "mpg":35.7,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":80,
+    "weight":1915,
+    "accel":14.4,
+    "year":1979
+},
+{
+    "id":304,
+    "mpg":27.4,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":80,
+    "weight":2670,
+    "accel":15,
+    "year":1979
+},
+{
+    "id":305,
+    "mpg":25.4,
+    "cylinders":5,
+    "edispl":183,
+    "horsepower":77,
+    "weight":3530,
+    "accel":20.1,
+    "year":1979
+},
+{
+    "id":306,
+    "mpg":23,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":125,
+    "weight":3900,
+    "accel":17.4,
+    "year":1979
+},
+{
+    "id":307,
+    "mpg":27.2,
+    "cylinders":4,
+    "edispl":141,
+    "horsepower":71,
+    "weight":3190,
+    "accel":24.8,
+    "year":1979
+},
+{
+    "id":308,
+    "mpg":23.9,
+    "cylinders":8,
+    "edispl":260,
+    "horsepower":90,
+    "weight":3420,
+    "accel":22.2,
+    "year":1979
+},
+{
+    "id":309,
+    "mpg":34.2,
+    "cylinders":4,
+    "edispl":105,
+    "horsepower":70,
+    "weight":2200,
+    "accel":13.2,
+    "year":1979
+},
+{
+    "id":310,
+    "mpg":34.5,
+    "cylinders":4,
+    "edispl":105,
+    "horsepower":70,
+    "weight":2150,
+    "accel":14.9,
+    "year":1979
+},
+{
+    "id":311,
+    "mpg":31.8,
+    "cylinders":4,
+    "edispl":85,
+    "horsepower":65,
+    "weight":2020,
+    "accel":19.2,
+    "year":1979
+},
+{
+    "id":312,
+    "mpg":37.3,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":69,
+    "weight":2130,
+    "accel":14.7,
+    "year":1979
+},
+{
+    "id":313,
+    "mpg":28.4,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":90,
+    "weight":2670,
+    "accel":16,
+    "year":1979
+},
+{
+    "id":314,
+    "mpg":28.8,
+    "cylinders":6,
+    "edispl":173,
+    "horsepower":115,
+    "weight":2595,
+    "accel":11.3,
+    "year":1979
+},
+{
+    "id":315,
+    "mpg":26.8,
+    "cylinders":6,
+    "edispl":173,
+    "horsepower":115,
+    "weight":2700,
+    "accel":12.9,
+    "year":1979
+},
+{
+    "id":316,
+    "mpg":33.5,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":90,
+    "weight":2556,
+    "accel":13.2,
+    "year":1979
+},
+{
+    "id":317,
+    "mpg":41.5,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":76,
+    "weight":2144,
+    "accel":14.7,
+    "year":1980
+},
+{
+    "id":318,
+    "mpg":38.1,
+    "cylinders":4,
+    "edispl":89,
+    "horsepower":60,
+    "weight":1968,
+    "accel":18.8,
+    "year":1980
+},
+{
+    "id":319,
+    "mpg":32.1,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":70,
+    "weight":2120,
+    "accel":15.5,
+    "year":1980
+},
+{
+    "id":320,
+    "mpg":37.2,
+    "cylinders":4,
+    "edispl":86,
+    "horsepower":65,
+    "weight":2019,
+    "accel":16.4,
+    "year":1980
+},
+{
+    "id":321,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":90,
+    "weight":2678,
+    "accel":16.5,
+    "year":1980
+},
+{
+    "id":322,
+    "mpg":26.4,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":88,
+    "weight":2870,
+    "accel":18.1,
+    "year":1980
+},
+{
+    "id":323,
+    "mpg":24.3,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":90,
+    "weight":3003,
+    "accel":20.1,
+    "year":1980
+},
+{
+    "id":324,
+    "mpg":19.1,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":90,
+    "weight":3381,
+    "accel":18.7,
+    "year":1980
+},
+{
+    "id":325,
+    "mpg":34.3,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":78,
+    "weight":2188,
+    "accel":15.8,
+    "year":1980
+},
+{
+    "id":326,
+    "mpg":29.8,
+    "cylinders":4,
+    "edispl":134,
+    "horsepower":90,
+    "weight":2711,
+    "accel":15.5,
+    "year":1980
+},
+{
+    "id":327,
+    "mpg":31.3,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":75,
+    "weight":2542,
+    "accel":17.5,
+    "year":1980
+},
+{
+    "id":328,
+    "mpg":37,
+    "cylinders":4,
+    "edispl":119,
+    "horsepower":92,
+    "weight":2434,
+    "accel":15,
+    "year":1980
+},
+{
+    "id":329,
+    "mpg":32.2,
+    "cylinders":4,
+    "edispl":108,
+    "horsepower":75,
+    "weight":2265,
+    "accel":15.2,
+    "year":1980
+},
+{
+    "id":330,
+    "mpg":46.6,
+    "cylinders":4,
+    "edispl":86,
+    "horsepower":65,
+    "weight":2110,
+    "accel":17.9,
+    "year":1980
+},
+{
+    "id":331,
+    "mpg":27.9,
+    "cylinders":4,
+    "edispl":156,
+    "horsepower":105,
+    "weight":2800,
+    "accel":14.4,
+    "year":1980
+},
+{
+    "id":332,
+    "mpg":40.8,
+    "cylinders":4,
+    "edispl":85,
+    "horsepower":65,
+    "weight":2110,
+    "accel":19.2,
+    "year":1980
+},
+{
+    "id":333,
+    "mpg":44.3,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":48,
+    "weight":2085,
+    "accel":21.7,
+    "year":1980
+},
+{
+    "id":334,
+    "mpg":43.4,
+    "cylinders":4,
+    "edispl":90,
+    "horsepower":48,
+    "weight":2335,
+    "accel":23.7,
+    "year":1980
+},
+{
+    "id":335,
+    "mpg":36.4,
+    "cylinders":5,
+    "edispl":121,
+    "horsepower":67,
+    "weight":2950,
+    "accel":19.9,
+    "year":1980
+},
+{
+    "id":336,
+    "mpg":30,
+    "cylinders":4,
+    "edispl":146,
+    "horsepower":67,
+    "weight":3250,
+    "accel":21.8,
+    "year":1980
+},
+{
+    "id":337,
+    "mpg":44.6,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":67,
+    "weight":1850,
+    "accel":13.8,
+    "year":1980
+},
+{
+    "id":338,
+    "mpg":40.9,
+    "cylinders":4,
+    "edispl":85,
+    "weight":1835,
+    "accel":17.3,
+    "year":1980
+},
+{
+    "id":339,
+    "mpg":33.8,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":67,
+    "weight":2145,
+    "accel":18,
+    "year":1980
+},
+{
+    "id":340,
+    "mpg":29.8,
+    "cylinders":4,
+    "edispl":89,
+    "horsepower":62,
+    "weight":1845,
+    "accel":15.3,
+    "year":1980
+},
+{
+    "id":341,
+    "mpg":32.7,
+    "cylinders":6,
+    "edispl":168,
+    "horsepower":132,
+    "weight":2910,
+    "accel":11.4,
+    "year":1980
+},
+{
+    "id":342,
+    "mpg":23.7,
+    "cylinders":3,
+    "edispl":70,
+    "horsepower":100,
+    "weight":2420,
+    "accel":12.5,
+    "year":1980
+},
+{
+    "id":343,
+    "mpg":35,
+    "cylinders":4,
+    "edispl":122,
+    "horsepower":88,
+    "weight":2500,
+    "accel":15.1,
+    "year":1980
+},
+{
+    "id":344,
+    "mpg":23.6,
+    "cylinders":4,
+    "edispl":140,
+    "weight":2905,
+    "accel":14.3,
+    "year":1980
+},
+{
+    "id":345,
+    "mpg":32.4,
+    "cylinders":4,
+    "edispl":107,
+    "horsepower":72,
+    "weight":2290,
+    "accel":17,
+    "year":1980
+},
+{
+    "id":346,
+    "mpg":27.2,
+    "cylinders":4,
+    "edispl":135,
+    "horsepower":84,
+    "weight":2490,
+    "accel":15.7,
+    "year":1981
+},
+{
+    "id":347,
+    "mpg":26.6,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":84,
+    "weight":2635,
+    "accel":16.4,
+    "year":1981
+},
+{
+    "id":348,
+    "mpg":25.8,
+    "cylinders":4,
+    "edispl":156,
+    "horsepower":92,
+    "weight":2620,
+    "accel":14.4,
+    "year":1981
+},
+{
+    "id":349,
+    "mpg":23.5,
+    "cylinders":6,
+    "edispl":173,
+    "horsepower":110,
+    "weight":2725,
+    "accel":12.6,
+    "year":1981
+},
+{
+    "id":350,
+    "mpg":30,
+    "cylinders":4,
+    "edispl":135,
+    "horsepower":84,
+    "weight":2385,
+    "accel":12.9,
+    "year":1981
+},
+{
+    "id":351,
+    "mpg":39.1,
+    "cylinders":4,
+    "edispl":79,
+    "horsepower":58,
+    "weight":1755,
+    "accel":16.9,
+    "year":1981
+},
+{
+    "id":352,
+    "mpg":39,
+    "cylinders":4,
+    "edispl":86,
+    "horsepower":64,
+    "weight":1875,
+    "accel":16.4,
+    "year":1981
+},
+{
+    "id":353,
+    "mpg":35.1,
+    "cylinders":4,
+    "edispl":81,
+    "horsepower":60,
+    "weight":1760,
+    "accel":16.1,
+    "year":1981
+},
+{
+    "id":354,
+    "mpg":32.3,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":67,
+    "weight":2065,
+    "accel":17.8,
+    "year":1981
+},
+{
+    "id":355,
+    "mpg":37,
+    "cylinders":4,
+    "edispl":85,
+    "horsepower":65,
+    "weight":1975,
+    "accel":19.4,
+    "year":1981
+},
+{
+    "id":356,
+    "mpg":37.7,
+    "cylinders":4,
+    "edispl":89,
+    "horsepower":62,
+    "weight":2050,
+    "accel":17.3,
+    "year":1981
+},
+{
+    "id":357,
+    "mpg":34.1,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":68,
+    "weight":1985,
+    "accel":16,
+    "year":1981
+},
+{
+    "id":358,
+    "mpg":34.7,
+    "cylinders":4,
+    "edispl":105,
+    "horsepower":63,
+    "weight":2215,
+    "accel":14.9,
+    "year":1981
+},
+{
+    "id":359,
+    "mpg":34.4,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":65,
+    "weight":2045,
+    "accel":16.2,
+    "year":1981
+},
+{
+    "id":360,
+    "mpg":29.9,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":65,
+    "weight":2380,
+    "accel":20.7,
+    "year":1981
+},
+{
+    "id":361,
+    "mpg":33,
+    "cylinders":4,
+    "edispl":105,
+    "horsepower":74,
+    "weight":2190,
+    "accel":14.2,
+    "year":1981
+},
+{
+    "id":362,
+    "mpg":34.5,
+    "cylinders":4,
+    "edispl":100,
+    "weight":2320,
+    "accel":15.8,
+    "year":1981
+},
+{
+    "id":363,
+    "mpg":33.7,
+    "cylinders":4,
+    "edispl":107,
+    "horsepower":75,
+    "weight":2210,
+    "accel":14.4,
+    "year":1981
+},
+{
+    "id":364,
+    "mpg":32.4,
+    "cylinders":4,
+    "edispl":108,
+    "horsepower":75,
+    "weight":2350,
+    "accel":16.8,
+    "year":1981
+},
+{
+    "id":365,
+    "mpg":32.9,
+    "cylinders":4,
+    "edispl":119,
+    "horsepower":100,
+    "weight":2615,
+    "accel":14.8,
+    "year":1981
+},
+{
+    "id":366,
+    "mpg":31.6,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":74,
+    "weight":2635,
+    "accel":18.3,
+    "year":1981
+},
+{
+    "id":367,
+    "mpg":28.1,
+    "cylinders":4,
+    "edispl":141,
+    "horsepower":80,
+    "weight":3230,
+    "accel":20.4,
+    "year":1981
+},
+{
+    "id":368,
+    "cylinders":4,
+    "edispl":121,
+    "horsepower":110,
+    "weight":2800,
+    "accel":15.4,
+    "year":1981
+},
+{
+    "id":369,
+    "mpg":30.7,
+    "cylinders":6,
+    "edispl":145,
+    "horsepower":76,
+    "weight":3160,
+    "accel":19.6,
+    "year":1981
+},
+{
+    "id":370,
+    "mpg":25.4,
+    "cylinders":6,
+    "edispl":168,
+    "horsepower":116,
+    "weight":2900,
+    "accel":12.6,
+    "year":1981
+},
+{
+    "id":371,
+    "mpg":24.2,
+    "cylinders":6,
+    "edispl":146,
+    "horsepower":120,
+    "weight":2930,
+    "accel":13.8,
+    "year":1981
+},
+{
+    "id":372,
+    "mpg":22.4,
+    "cylinders":6,
+    "edispl":231,
+    "horsepower":110,
+    "weight":3415,
+    "accel":15.8,
+    "year":1981
+},
+{
+    "id":373,
+    "mpg":26.6,
+    "cylinders":8,
+    "edispl":350,
+    "horsepower":105,
+    "weight":3725,
+    "accel":19,
+    "year":1981
+},
+{
+    "id":374,
+    "mpg":20.2,
+    "cylinders":6,
+    "edispl":200,
+    "horsepower":88,
+    "weight":3060,
+    "accel":17.1,
+    "year":1981
+},
+{
+    "id":375,
+    "mpg":17.6,
+    "cylinders":6,
+    "edispl":225,
+    "horsepower":85,
+    "weight":3465,
+    "accel":16.6,
+    "year":1981
+},
+{
+    "id":376,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":112,
+    "horsepower":88,
+    "weight":2605,
+    "accel":19.6,
+    "year":1982
+},
+{
+    "id":377,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":112,
+    "horsepower":88,
+    "weight":2640,
+    "accel":18.6,
+    "year":1982
+},
+{
+    "id":378,
+    "mpg":34,
+    "cylinders":4,
+    "edispl":112,
+    "horsepower":88,
+    "weight":2395,
+    "accel":18,
+    "year":1982
+},
+{
+    "id":379,
+    "mpg":31,
+    "cylinders":4,
+    "edispl":112,
+    "horsepower":85,
+    "weight":2575,
+    "accel":16.2,
+    "year":1982
+},
+{
+    "id":380,
+    "mpg":29,
+    "cylinders":4,
+    "edispl":135,
+    "horsepower":84,
+    "weight":2525,
+    "accel":16,
+    "year":1982
+},
+{
+    "id":381,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":90,
+    "weight":2735,
+    "accel":18,
+    "year":1982
+},
+{
+    "id":382,
+    "mpg":24,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":92,
+    "weight":2865,
+    "accel":16.4,
+    "year":1982
+},
+{
+    "id":383,
+    "mpg":23,
+    "cylinders":4,
+    "edispl":151,
+    "weight":3035,
+    "accel":20.5,
+    "year":1982
+},
+{
+    "id":384,
+    "mpg":36,
+    "cylinders":4,
+    "edispl":105,
+    "horsepower":74,
+    "weight":1980,
+    "accel":15.3,
+    "year":1982
+},
+{
+    "id":385,
+    "mpg":37,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":68,
+    "weight":2025,
+    "accel":18.2,
+    "year":1982
+},
+{
+    "id":386,
+    "mpg":31,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":68,
+    "weight":1970,
+    "accel":17.6,
+    "year":1982
+},
+{
+    "id":387,
+    "mpg":38,
+    "cylinders":4,
+    "edispl":105,
+    "horsepower":63,
+    "weight":2125,
+    "accel":14.7,
+    "year":1982
+},
+{
+    "id":388,
+    "mpg":36,
+    "cylinders":4,
+    "edispl":98,
+    "horsepower":70,
+    "weight":2125,
+    "accel":17.3,
+    "year":1982
+},
+{
+    "id":389,
+    "mpg":36,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":88,
+    "weight":2160,
+    "accel":14.5,
+    "year":1982
+},
+{
+    "id":390,
+    "mpg":36,
+    "cylinders":4,
+    "edispl":107,
+    "horsepower":75,
+    "weight":2205,
+    "accel":14.5,
+    "year":1982
+},
+{
+    "id":391,
+    "mpg":34,
+    "cylinders":4,
+    "edispl":108,
+    "horsepower":70,
+    "weight":2245,
+    "accel":16.9,
+    "year":1982
+},
+{
+    "id":392,
+    "mpg":38,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":67,
+    "weight":1965,
+    "accel":15,
+    "year":1982
+},
+{
+    "id":393,
+    "mpg":32,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":67,
+    "weight":1965,
+    "accel":15.7,
+    "year":1982
+},
+{
+    "id":394,
+    "mpg":38,
+    "cylinders":4,
+    "edispl":91,
+    "horsepower":67,
+    "weight":1995,
+    "accel":16.2,
+    "year":1982
+},
+{
+    "id":395,
+    "mpg":25,
+    "cylinders":6,
+    "edispl":181,
+    "horsepower":110,
+    "weight":2945,
+    "accel":16.4,
+    "year":1982
+},
+{
+    "id":396,
+    "mpg":38,
+    "cylinders":6,
+    "edispl":262,
+    "horsepower":85,
+    "weight":3015,
+    "accel":17,
+    "year":1982
+},
+{
+    "id":397,
+    "mpg":26,
+    "cylinders":4,
+    "edispl":156,
+    "horsepower":92,
+    "weight":2585,
+    "accel":14.5,
+    "year":1982
+},
+{
+    "id":398,
+    "mpg":22,
+    "cylinders":6,
+    "edispl":232,
+    "horsepower":112,
+    "weight":2835,
+    "accel":14.7,
+    "year":1982
+},
+{
+    "id":399,
+    "mpg":32,
+    "cylinders":4,
+    "edispl":144,
+    "horsepower":96,
+    "weight":2665,
+    "accel":13.9,
+    "year":1982
+},
+{
+    "id":400,
+    "mpg":36,
+    "cylinders":4,
+    "edispl":135,
+    "horsepower":84,
+    "weight":2370,
+    "accel":13,
+    "year":1982
+},
+{
+    "id":401,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":151,
+    "horsepower":90,
+    "weight":2950,
+    "accel":17.3,
+    "year":1982
+},
+{
+    "id":402,
+    "mpg":27,
+    "cylinders":4,
+    "edispl":140,
+    "horsepower":86,
+    "weight":2790,
+    "accel":15.6,
+    "year":1982
+},
+{
+    "id":403,
+    "mpg":44,
+    "cylinders":4,
+    "edispl":97,
+    "horsepower":52,
+    "weight":2130,
+    "accel":24.6,
+    "year":1982
+},
+{
+    "id":404,
+    "mpg":32,
+    "cylinders":4,
+    "edispl":135,
+    "horsepower":84,
+    "weight":2295,
+    "accel":11.6,
+    "year":1982
+},
+{
+    "id":405,
+    "mpg":28,
+    "cylinders":4,
+    "edispl":120,
+    "horsepower":79,
+    "weight":2625,
+    "accel":18.6,
+    "year":1982
+},
+{
+    "id":406,
+    "mpg":31,
+    "cylinders":4,
+    "edispl":119,
+    "horsepower":82,
+    "weight":2720,
+    "accel":19.4,
+    "year":1982
+}]
+)
+
+
+db.car_makers.insertMany([
+    {
+       "id":1,
+       "maker":"amc",
+       "fullname":"American Motor Company",
+       "country":1
+    },
+    {
+       "id":2,
+       "maker":"volkswagen",
+       "fullname":"Volkswagen",
+       "country":2
+    },
+    {
+       "id":3,
+       "maker":"bmw",
+       "fullname":"BMW",
+       "country":2
+    },
+    {
+       "id":4,
+       "maker":"gm",
+       "fullname":"General Motors",
+       "country":1
+    },
+    {
+       "id":5,
+       "maker":"ford",
+       "fullname":"Ford Motor Company",
+       "country":1
+    },
+    {
+       "id":6,
+       "maker":"chrysler",
+       "fullname":"Chrysler",
+       "country":1
+    },
+    {
+       "id":7,
+       "maker":"citroen",
+       "fullname":"Citroen",
+       "country":3
+    },
+    {
+       "id":8,
+       "maker":"nissan",
+       "fullname":"Nissan Motors",
+       "country":4
+    },
+    {
+       "id":9,
+       "maker":"fiat",
+       "fullname":"Fiat",
+       "country":5
+    },
+    {
+       "id":10,
+       "maker":"hi",
+       "fullname":"hi"
+    },
+    {
+       "id":11,
+       "maker":"honda",
+       "fullname":"Honda",
+       "country":4
+    },
+    {
+       "id":12,
+       "maker":"mazda",
+       "fullname":"Mazda",
+       "country":4
+    },
+    {
+       "id":13,
+       "maker":"daimler benz",
+       "fullname":"Daimler Benz",
+       "country":2
+    },
+    {
+       "id":14,
+       "maker":"opel",
+       "fullname":"Opel",
+       "country":2
+    },
+    {
+       "id":15,
+       "maker":"peugeaut",
+       "fullname":"Peugeaut",
+       "country":3
+    },
+    {
+       "id":16,
+       "maker":"renault",
+       "fullname":"Renault",
+       "country":3
+    },
+    {
+       "id":17,
+       "maker":"saab",
+       "fullname":"Saab",
+       "country":6
+    },
+    {
+       "id":18,
+       "maker":"subaru",
+       "fullname":"Subaru",
+       "country":4
+    },
+    {
+       "id":19,
+       "maker":"toyota",
+       "fullname":"Toyota",
+       "country":4
+    },
+    {
+       "id":20,
+       "maker":"triumph",
+       "fullname":"Triumph",
+       "country":7
+    },
+    {
+       "id":21,
+       "maker":"volvo",
+       "fullname":"Volvo",
+       "country":6
+    },
+    {
+       "id":22,
+       "maker":"kia",
+       "fullname":"Kia Motors",
+       "country":8
+    },
+    {
+       "id":23,
+       "maker":"hyundai",
+       "fullname":"Hyundai",
+       "country":8
+    }
+ ])
+
+
+db.car_names.insertMany([
+    {
+       "id":1,
+       "model":"chevrolet",
+       "descr":"chevrolet chevelle malibu"
+    },
+    {
+       "id":2,
+       "model":"buick",
+       "descr":"buick skylark 320"
+    },
+    {
+       "id":3,
+       "model":"plymouth",
+       "descr":"plymouth satellite"
+    },
+    {
+       "id":4,
+       "model":"amc",
+       "descr":"amc rebel sst"
+    },
+    {
+       "id":5,
+       "model":"ford",
+       "descr":"ford torino"
+    },
+    {
+       "id":6,
+       "model":"ford",
+       "descr":"ford galaxie 500"
+    },
+    {
+       "id":7,
+       "model":"chevrolet",
+       "descr":"chevrolet impala"
+    },
+    {
+       "id":8,
+       "model":"plymouth",
+       "descr":"plymouth fury iii"
+    },
+    {
+       "id":9,
+       "model":"pontiac",
+       "descr":"pontiac catalina"
+    },
+    {
+       "id":10,
+       "model":"amc",
+       "descr":"amc ambassador dpl"
+    },
+    {
+       "id":11,
+       "model":"citroen",
+       "descr":"citroen ds-21 pallas"
+    },
+    {
+       "id":12,
+       "model":"chevrolet",
+       "descr":"chevrolet chevelle concours (sw)"
+    },
+    {
+       "id":13,
+       "model":"ford",
+       "descr":"ford torino (sw)"
+    },
+    {
+       "id":14,
+       "model":"plymouth",
+       "descr":"plymouth satellite (sw)"
+    },
+    {
+       "id":15,
+       "model":"amc",
+       "descr":"amc rebel sst (sw)"
+    },
+    {
+       "id":16,
+       "model":"dodge",
+       "descr":"dodge challenger se"
+    },
+    {
+       "id":17,
+       "model":"plymouth",
+       "descr":"plymouth cuda 340"
+    },
+    {
+       "id":18,
+       "model":"ford",
+       "descr":"ford mustang boss 302"
+    },
+    {
+       "id":19,
+       "model":"chevrolet",
+       "descr":"chevrolet monte carlo"
+    },
+    {
+       "id":20,
+       "model":"buick",
+       "descr":"buick estate wagon (sw)"
+    },
+    {
+       "id":21,
+       "model":"toyota",
+       "descr":"toyota corona mark ii"
+    },
+    {
+       "id":22,
+       "model":"plymouth",
+       "descr":"plymouth duster"
+    },
+    {
+       "id":23,
+       "model":"amc",
+       "descr":"amc hornet"
+    },
+    {
+       "id":24,
+       "model":"ford",
+       "descr":"ford maverick"
+    },
+    {
+       "id":25,
+       "model":"datsun",
+       "descr":"datsun pl510"
+    },
+    {
+       "id":26,
+       "model":"volkswagen",
+       "descr":"volkswagen 1131 deluxe sedan"
+    },
+    {
+       "id":27,
+       "model":"peugeot",
+       "descr":"peugeot 504"
+    },
+    {
+       "id":28,
+       "model":"audi",
+       "descr":"audi 100 ls"
+    },
+    {
+       "id":29,
+       "model":"saab",
+       "descr":"saab 99e"
+    },
+    {
+       "id":30,
+       "model":"bmw",
+       "descr":"bmw 2002"
+    },
+    {
+       "id":31,
+       "model":"amc",
+       "descr":"amc gremlin"
+    },
+    {
+       "id":32,
+       "model":"ford",
+       "descr":"ford f250"
+    },
+    {
+       "id":33,
+       "model":"chevrolet",
+       "descr":"chevy c20"
+    },
+    {
+       "id":34,
+       "model":"dodge",
+       "descr":"dodge d200"
+    },
+    {
+       "id":35,
+       "model":"hi",
+       "descr":"hi 1200d"
+    },
+    {
+       "id":36,
+       "model":"datsun",
+       "descr":"datsun pl510"
+    },
+    {
+       "id":37,
+       "model":"chevrolet",
+       "descr":"chevrolet vega 2300"
+    },
+    {
+       "id":38,
+       "model":"toyota",
+       "descr":"toyota corona"
+    },
+    {
+       "id":39,
+       "model":"ford",
+       "descr":"ford pinto"
+    },
+    {
+       "id":40,
+       "model":"volkswagen",
+       "descr":"volkswagen super beetle 117"
+    },
+    {
+       "id":41,
+       "model":"amc",
+       "descr":"amc gremlin"
+    },
+    {
+       "id":42,
+       "model":"plymouth",
+       "descr":"plymouth satellite custom"
+    },
+    {
+       "id":43,
+       "model":"chevrolet",
+       "descr":"chevrolet chevelle malibu"
+    },
+    {
+       "id":44,
+       "model":"ford",
+       "descr":"ford torino 500"
+    },
+    {
+       "id":45,
+       "model":"amc",
+       "descr":"amc matador"
+    },
+    {
+       "id":46,
+       "model":"chevrolet",
+       "descr":"chevrolet impala"
+    },
+    {
+       "id":47,
+       "model":"pontiac",
+       "descr":"pontiac catalina brougham"
+    },
+    {
+       "id":48,
+       "model":"ford",
+       "descr":"ford galaxie 500"
+    },
+    {
+       "id":49,
+       "model":"plymouth",
+       "descr":"plymouth fury iii"
+    },
+    {
+       "id":50,
+       "model":"dodge",
+       "descr":"dodge monaco (sw)"
+    },
+    {
+       "id":51,
+       "model":"ford",
+       "descr":"ford country squire (sw)"
+    },
+    {
+       "id":52,
+       "model":"pontiac",
+       "descr":"pontiac safari (sw)"
+    },
+    {
+       "id":53,
+       "model":"amc",
+       "descr":"amc hornet sportabout (sw)"
+    },
+    {
+       "id":54,
+       "model":"chevrolet",
+       "descr":"chevrolet vega (sw)"
+    },
+    {
+       "id":55,
+       "model":"pontiac",
+       "descr":"pontiac firebird"
+    },
+    {
+       "id":56,
+       "model":"ford",
+       "descr":"ford mustang"
+    },
+    {
+       "id":57,
+       "model":"mercury",
+       "descr":"mercury capri 2000"
+    },
+    {
+       "id":58,
+       "model":"opel",
+       "descr":"opel 1900"
+    },
+    {
+       "id":59,
+       "model":"peugeot",
+       "descr":"peugeot 304"
+    },
+    {
+       "id":60,
+       "model":"fiat",
+       "descr":"fiat 124b"
+    },
+    {
+       "id":61,
+       "model":"toyota",
+       "descr":"toyota corolla 1200"
+    },
+    {
+       "id":62,
+       "model":"datsun",
+       "descr":"datsun 1200"
+    },
+    {
+       "id":63,
+       "model":"volkswagen",
+       "descr":"volkswagen model 111"
+    },
+    {
+       "id":64,
+       "model":"plymouth",
+       "descr":"plymouth cricket"
+    },
+    {
+       "id":65,
+       "model":"toyota",
+       "descr":"toyota corona hardtop"
+    },
+    {
+       "id":66,
+       "model":"dodge",
+       "descr":"dodge colt hardtop"
+    },
+    {
+       "id":67,
+       "model":"volkswagen",
+       "descr":"volkswagen type 3"
+    },
+    {
+       "id":68,
+       "model":"chevrolet",
+       "descr":"chevrolet vega"
+    },
+    {
+       "id":69,
+       "model":"ford",
+       "descr":"ford pinto runabout"
+    },
+    {
+       "id":70,
+       "model":"chevrolet",
+       "descr":"chevrolet impala"
+    },
+    {
+       "id":71,
+       "model":"pontiac",
+       "descr":"pontiac catalina"
+    },
+    {
+       "id":72,
+       "model":"plymouth",
+       "descr":"plymouth fury iii"
+    },
+    {
+       "id":73,
+       "model":"ford",
+       "descr":"ford galaxie 500"
+    },
+    {
+       "id":74,
+       "model":"amc",
+       "descr":"amc ambassador sst"
+    },
+    {
+       "id":75,
+       "model":"mercury",
+       "descr":"mercury marquis"
+    },
+    {
+       "id":76,
+       "model":"buick",
+       "descr":"buick lesabre custom"
+    },
+    {
+       "id":77,
+       "model":"oldsmobile",
+       "descr":"oldsmobile delta 88 royale"
+    },
+    {
+       "id":78,
+       "model":"chrysler",
+       "descr":"chrysler newport royal"
+    },
+    {
+       "id":79,
+       "model":"mazda",
+       "descr":"mazda rx2 coupe"
+    },
+    {
+       "id":80,
+       "model":"amc",
+       "descr":"amc matador (sw)"
+    },
+    {
+       "id":81,
+       "model":"chevrolet",
+       "descr":"chevrolet chevelle concours (sw)"
+    },
+    {
+       "id":82,
+       "model":"ford",
+       "descr":"ford gran torino (sw)"
+    },
+    {
+       "id":83,
+       "model":"plymouth",
+       "descr":"plymouth satellite custom (sw)"
+    },
+    {
+       "id":84,
+       "model":"volvo",
+       "descr":"volvo 145e (sw)"
+    },
+    {
+       "id":85,
+       "model":"volkswagen",
+       "descr":"volkswagen 411 (sw)"
+    },
+    {
+       "id":86,
+       "model":"peugeot",
+       "descr":"peugeot 504 (sw)"
+    },
+    {
+       "id":87,
+       "model":"renault",
+       "descr":"renault 12 (sw)"
+    },
+    {
+       "id":88,
+       "model":"ford",
+       "descr":"ford pinto (sw)"
+    },
+    {
+       "id":89,
+       "model":"datsun",
+       "descr":"datsun 510 (sw)"
+    },
+    {
+       "id":90,
+       "model":"toyota",
+       "descr":"toyota corona mark ii (sw)"
+    },
+    {
+       "id":91,
+       "model":"dodge",
+       "descr":"dodge colt (sw)"
+    },
+    {
+       "id":92,
+       "model":"toyota",
+       "descr":"toyota corolla 1600 (sw)"
+    },
+    {
+       "id":93,
+       "model":"buick",
+       "descr":"buick century 350"
+    },
+    {
+       "id":94,
+       "model":"amc",
+       "descr":"amc matador"
+    },
+    {
+       "id":95,
+       "model":"chevrolet",
+       "descr":"chevrolet malibu"
+    },
+    {
+       "id":96,
+       "model":"ford",
+       "descr":"ford gran torino"
+    },
+    {
+       "id":97,
+       "model":"dodge",
+       "descr":"dodge coronet custom"
+    },
+    {
+       "id":98,
+       "model":"mercury",
+       "descr":"mercury marquis brougham"
+    },
+    {
+       "id":99,
+       "model":"chevrolet",
+       "descr":"chevrolet caprice classic"
+    },
+    {
+       "id":100,
+       "model":"ford",
+       "descr":"ford ltd"
+    },
+    {
+       "id":101,
+       "model":"plymouth",
+       "descr":"plymouth fury gran sedan"
+    },
+    {
+       "id":102,
+       "model":"chrysler",
+       "descr":"chrysler new yorker brougham"
+    },
+    {
+       "id":103,
+       "model":"buick",
+       "descr":"buick electra 225 custom"
+    },
+    {
+       "id":104,
+       "model":"amc",
+       "descr":"amc ambassador brougham"
+    },
+    {
+       "id":105,
+       "model":"plymouth",
+       "descr":"plymouth valiant"
+    },
+    {
+       "id":106,
+       "model":"chevrolet",
+       "descr":"chevrolet nova custom"
+    },
+    {
+       "id":107,
+       "model":"amc",
+       "descr":"amc hornet"
+    },
+    {
+       "id":108,
+       "model":"ford",
+       "descr":"ford maverick"
+    },
+    {
+       "id":109,
+       "model":"plymouth",
+       "descr":"plymouth duster"
+    },
+    {
+       "id":110,
+       "model":"volkswagen",
+       "descr":"volkswagen super beetle"
+    },
+    {
+       "id":111,
+       "model":"chevrolet",
+       "descr":"chevrolet impala"
+    },
+    {
+       "id":112,
+       "model":"ford",
+       "descr":"ford country"
+    },
+    {
+       "id":113,
+       "model":"plymouth",
+       "descr":"plymouth custom suburb"
+    },
+    {
+       "id":114,
+       "model":"oldsmobile",
+       "descr":"oldsmobile vista cruiser"
+    },
+    {
+       "id":115,
+       "model":"amc",
+       "descr":"amc gremlin"
+    },
+    {
+       "id":116,
+       "model":"toyota",
+       "descr":"toyota carina"
+    },
+    {
+       "id":117,
+       "model":"chevrolet",
+       "descr":"chevrolet vega"
+    },
+    {
+       "id":118,
+       "model":"datsun",
+       "descr":"datsun 610"
+    },
+    {
+       "id":119,
+       "model":"mazda",
+       "descr":"mazda rx3"
+    },
+    {
+       "id":120,
+       "model":"ford",
+       "descr":"ford pinto"
+    },
+    {
+       "id":121,
+       "model":"mercury",
+       "descr":"mercury capri v6"
+    },
+    {
+       "id":122,
+       "model":"fiat",
+       "descr":"fiat 124 sport coupe"
+    },
+    {
+       "id":123,
+       "model":"chevrolet",
+       "descr":"chevrolet monte carlo s"
+    },
+    {
+       "id":124,
+       "model":"pontiac",
+       "descr":"pontiac grand prix"
+    },
+    {
+       "id":125,
+       "model":"fiat",
+       "descr":"fiat 128"
+    },
+    {
+       "id":126,
+       "model":"opel",
+       "descr":"opel manta"
+    },
+    {
+       "id":127,
+       "model":"audi",
+       "descr":"audi 100ls"
+    },
+    {
+       "id":128,
+       "model":"volvo",
+       "descr":"volvo 144ea"
+    },
+    {
+       "id":129,
+       "model":"dodge",
+       "descr":"dodge dart custom"
+    },
+    {
+       "id":130,
+       "model":"saab",
+       "descr":"saab 99le"
+    },
+    {
+       "id":131,
+       "model":"toyota",
+       "descr":"toyota mark ii"
+    },
+    {
+       "id":132,
+       "model":"oldsmobile",
+       "descr":"oldsmobile omega"
+    },
+    {
+       "id":133,
+       "model":"plymouth",
+       "descr":"plymouth duster"
+    },
+    {
+       "id":134,
+       "model":"ford",
+       "descr":"ford maverick"
+    },
+    {
+       "id":135,
+       "model":"amc",
+       "descr":"amc hornet"
+    },
+    {
+       "id":136,
+       "model":"chevrolet",
+       "descr":"chevrolet nova"
+    },
+    {
+       "id":137,
+       "model":"datsun",
+       "descr":"datsun b210"
+    },
+    {
+       "id":138,
+       "model":"ford",
+       "descr":"ford pinto"
+    },
+    {
+       "id":139,
+       "model":"toyota",
+       "descr":"toyota corolla 1200"
+    },
+    {
+       "id":140,
+       "model":"chevrolet",
+       "descr":"chevrolet vega"
+    },
+    {
+       "id":141,
+       "model":"chevrolet",
+       "descr":"chevrolet chevelle malibu classic"
+    },
+    {
+       "id":142,
+       "model":"amc",
+       "descr":"amc matador"
+    },
+    {
+       "id":143,
+       "model":"plymouth",
+       "descr":"plymouth satellite sebring"
+    },
+    {
+       "id":144,
+       "model":"ford",
+       "descr":"ford gran torino"
+    },
+    {
+       "id":145,
+       "model":"buick",
+       "descr":"buick century luxus (sw)"
+    },
+    {
+       "id":146,
+       "model":"dodge",
+       "descr":"dodge coronet custom (sw)"
+    },
+    {
+       "id":147,
+       "model":"ford",
+       "descr":"ford gran torino (sw)"
+    },
+    {
+       "id":148,
+       "model":"amc",
+       "descr":"amc matador (sw)"
+    },
+    {
+       "id":149,
+       "model":"audi",
+       "descr":"audi fox"
+    },
+    {
+       "id":150,
+       "model":"volkswagen",
+       "descr":"volkswagen dasher"
+    },
+    {
+       "id":151,
+       "model":"opel",
+       "descr":"opel manta"
+    },
+    {
+       "id":152,
+       "model":"toyota",
+       "descr":"toyota corona"
+    },
+    {
+       "id":153,
+       "model":"datsun",
+       "descr":"datsun 710"
+    },
+    {
+       "id":154,
+       "model":"dodge",
+       "descr":"dodge colt"
+    },
+    {
+       "id":155,
+       "model":"fiat",
+       "descr":"fiat 128"
+    },
+    {
+       "id":156,
+       "model":"fiat",
+       "descr":"fiat 124 tc"
+    },
+    {
+       "id":157,
+       "model":"honda",
+       "descr":"honda civic"
+    },
+    {
+       "id":158,
+       "model":"subaru",
+       "descr":"subaru"
+    },
+    {
+       "id":159,
+       "model":"fiat",
+       "descr":"fiat x1.9"
+    },
+    {
+       "id":160,
+       "model":"plymouth",
+       "descr":"plymouth valiant custom"
+    },
+    {
+       "id":161,
+       "model":"chevrolet",
+       "descr":"chevrolet nova"
+    },
+    {
+       "id":162,
+       "model":"mercury",
+       "descr":"mercury monarch"
+    },
+    {
+       "id":163,
+       "model":"ford",
+       "descr":"ford maverick"
+    },
+    {
+       "id":164,
+       "model":"pontiac",
+       "descr":"pontiac catalina"
+    },
+    {
+       "id":165,
+       "model":"chevrolet",
+       "descr":"chevrolet bel air"
+    },
+    {
+       "id":166,
+       "model":"plymouth",
+       "descr":"plymouth grand fury"
+    },
+    {
+       "id":167,
+       "model":"ford",
+       "descr":"ford ltd"
+    },
+    {
+       "id":168,
+       "model":"buick",
+       "descr":"buick century"
+    },
+    {
+       "id":169,
+       "model":"chevrolet",
+       "descr":"chevrolet chevelle malibu"
+    },
+    {
+       "id":170,
+       "model":"amc",
+       "descr":"amc matador"
+    },
+    {
+       "id":171,
+       "model":"plymouth",
+       "descr":"plymouth fury"
+    },
+    {
+       "id":172,
+       "model":"buick",
+       "descr":"buick skyhawk"
+    },
+    {
+       "id":173,
+       "model":"chevrolet",
+       "descr":"chevrolet monza 2+2"
+    },
+    {
+       "id":174,
+       "model":"ford",
+       "descr":"ford mustang ii"
+    },
+    {
+       "id":175,
+       "model":"toyota",
+       "descr":"toyota corolla"
+    },
+    {
+       "id":176,
+       "model":"ford",
+       "descr":"ford pinto"
+    },
+    {
+       "id":177,
+       "model":"amc",
+       "descr":"amc gremlin"
+    },
+    {
+       "id":178,
+       "model":"pontiac",
+       "descr":"pontiac astro"
+    },
+    {
+       "id":179,
+       "model":"toyota",
+       "descr":"toyota corona"
+    },
+    {
+       "id":180,
+       "model":"volkswagen",
+       "descr":"volkswagen dasher"
+    },
+    {
+       "id":181,
+       "model":"datsun",
+       "descr":"datsun 710"
+    },
+    {
+       "id":182,
+       "model":"ford",
+       "descr":"ford pinto"
+    },
+    {
+       "id":183,
+       "model":"volkswagen",
+       "descr":"volkswagen rabbit"
+    },
+    {
+       "id":184,
+       "model":"amc",
+       "descr":"amc pacer"
+    },
+    {
+       "id":185,
+       "model":"audi",
+       "descr":"audi 100ls"
+    },
+    {
+       "id":186,
+       "model":"peugeot",
+       "descr":"peugeot 504"
+    },
+    {
+       "id":187,
+       "model":"volvo",
+       "descr":"volvo 244dl"
+    },
+    {
+       "id":188,
+       "model":"saab",
+       "descr":"saab 99le"
+    },
+    {
+       "id":189,
+       "model":"honda",
+       "descr":"honda civic cvcc"
+    },
+    {
+       "id":190,
+       "model":"fiat",
+       "descr":"fiat 131"
+    },
+    {
+       "id":191,
+       "model":"opel",
+       "descr":"opel 1900"
+    },
+    {
+       "id":192,
+       "model":"capri",
+       "descr":"capri ii"
+    },
+    {
+       "id":193,
+       "model":"dodge",
+       "descr":"dodge colt"
+    },
+    {
+       "id":194,
+       "model":"renault",
+       "descr":"renault 12tl"
+    },
+    {
+       "id":195,
+       "model":"chevrolet",
+       "descr":"chevrolet chevelle malibu classic"
+    },
+    {
+       "id":196,
+       "model":"dodge",
+       "descr":"dodge coronet brougham"
+    },
+    {
+       "id":197,
+       "model":"amc",
+       "descr":"amc matador"
+    },
+    {
+       "id":198,
+       "model":"ford",
+       "descr":"ford gran torino"
+    },
+    {
+       "id":199,
+       "model":"plymouth",
+       "descr":"plymouth valiant"
+    },
+    {
+       "id":200,
+       "model":"chevrolet",
+       "descr":"chevrolet nova"
+    },
+    {
+       "id":201,
+       "model":"ford",
+       "descr":"ford maverick"
+    },
+    {
+       "id":202,
+       "model":"amc",
+       "descr":"amc hornet"
+    },
+    {
+       "id":203,
+       "model":"chevrolet",
+       "descr":"chevrolet chevette"
+    },
+    {
+       "id":204,
+       "model":"chevrolet",
+       "descr":"chevrolet woody"
+    },
+    {
+       "id":205,
+       "model":"volkswagen",
+       "descr":"vw rabbit"
+    },
+    {
+       "id":206,
+       "model":"honda",
+       "descr":"honda civic"
+    },
+    {
+       "id":207,
+       "model":"dodge",
+       "descr":"dodge aspen se"
+    },
+    {
+       "id":208,
+       "model":"ford",
+       "descr":"ford granada ghia"
+    },
+    {
+       "id":209,
+       "model":"pontiac",
+       "descr":"pontiac ventura sj"
+    },
+    {
+       "id":210,
+       "model":"amc",
+       "descr":"amc pacer d\/l"
+    },
+    {
+       "id":211,
+       "model":"volkswagen",
+       "descr":"volkswagen rabbit"
+    },
+    {
+       "id":212,
+       "model":"datsun",
+       "descr":"datsun b-210"
+    },
+    {
+       "id":213,
+       "model":"toyota",
+       "descr":"toyota corolla"
+    },
+    {
+       "id":214,
+       "model":"ford",
+       "descr":"ford pinto"
+    },
+    {
+       "id":215,
+       "model":"volvo",
+       "descr":"volvo 245"
+    },
+    {
+       "id":216,
+       "model":"plymouth",
+       "descr":"plymouth volare premier v8"
+    },
+    {
+       "id":217,
+       "model":"peugeot",
+       "descr":"peugeot 504"
+    },
+    {
+       "id":218,
+       "model":"toyota",
+       "descr":"toyota mark ii"
+    },
+    {
+       "id":219,
+       "model":"mercedes-benz",
+       "descr":"mercedes-benz 280s"
+    },
+    {
+       "id":220,
+       "model":"cadillac",
+       "descr":"cadillac seville"
+    },
+    {
+       "id":221,
+       "model":"chevrolet",
+       "descr":"chevy c10"
+    },
+    {
+       "id":222,
+       "model":"ford",
+       "descr":"ford f108"
+    },
+    {
+       "id":223,
+       "model":"dodge",
+       "descr":"dodge d100"
+    },
+    {
+       "id":224,
+       "model":"honda",
+       "descr":"honda accord cvcc"
+    },
+    {
+       "id":225,
+       "model":"buick",
+       "descr":"buick opel isuzu deluxe"
+    },
+    {
+       "id":226,
+       "model":"renault",
+       "descr":"renault 5 gtl"
+    },
+    {
+       "id":227,
+       "model":"plymouth",
+       "descr":"plymouth arrow gs"
+    },
+    {
+       "id":228,
+       "model":"datsun",
+       "descr":"datsun f-10 hatchback"
+    },
+    {
+       "id":229,
+       "model":"chevrolet",
+       "descr":"chevrolet caprice classic"
+    },
+    {
+       "id":230,
+       "model":"oldsmobile",
+       "descr":"oldsmobile cutlass supreme"
+    },
+    {
+       "id":231,
+       "model":"dodge",
+       "descr":"dodge monaco brougham"
+    },
+    {
+       "id":232,
+       "model":"mercury",
+       "descr":"mercury cougar brougham"
+    },
+    {
+       "id":233,
+       "model":"chevrolet",
+       "descr":"chevrolet concours"
+    },
+    {
+       "id":234,
+       "model":"buick",
+       "descr":"buick skylark"
+    },
+    {
+       "id":235,
+       "model":"plymouth",
+       "descr":"plymouth volare custom"
+    },
+    {
+       "id":236,
+       "model":"ford",
+       "descr":"ford granada"
+    },
+    {
+       "id":237,
+       "model":"pontiac",
+       "descr":"pontiac grand prix lj"
+    },
+    {
+       "id":238,
+       "model":"chevrolet",
+       "descr":"chevrolet monte carlo landau"
+    },
+    {
+       "id":239,
+       "model":"chrysler",
+       "descr":"chrysler cordoba"
+    },
+    {
+       "id":240,
+       "model":"ford",
+       "descr":"ford thunderbird"
+    },
+    {
+       "id":241,
+       "model":"volkswagen",
+       "descr":"volkswagen rabbit custom"
+    },
+    {
+       "id":242,
+       "model":"pontiac",
+       "descr":"pontiac sunbird coupe"
+    },
+    {
+       "id":243,
+       "model":"toyota",
+       "descr":"toyota corolla liftback"
+    },
+    {
+       "id":244,
+       "model":"ford",
+       "descr":"ford mustang ii 2+2"
+    },
+    {
+       "id":245,
+       "model":"chevrolet",
+       "descr":"chevrolet chevette"
+    },
+    {
+       "id":246,
+       "model":"dodge",
+       "descr":"dodge colt m\/m"
+    },
+    {
+       "id":247,
+       "model":"subaru",
+       "descr":"subaru dl"
+    },
+    {
+       "id":248,
+       "model":"volkswagen",
+       "descr":"volkswagen dasher"
+    },
+    {
+       "id":249,
+       "model":"datsun",
+       "descr":"datsun 810"
+    },
+    {
+       "id":250,
+       "model":"bmw",
+       "descr":"bmw 320i"
+    },
+    {
+       "id":251,
+       "model":"mazda",
+       "descr":"mazda rx-4"
+    },
+    {
+       "id":252,
+       "model":"volkswagen",
+       "descr":"volkswagen rabbit custom diesel"
+    },
+    {
+       "id":253,
+       "model":"ford",
+       "descr":"ford fiesta"
+    },
+    {
+       "id":254,
+       "model":"mazda",
+       "descr":"mazda glc deluxe"
+    },
+    {
+       "id":255,
+       "model":"datsun",
+       "descr":"datsun b210 gx"
+    },
+    {
+       "id":256,
+       "model":"honda",
+       "descr":"honda civic cvcc"
+    },
+    {
+       "id":257,
+       "model":"oldsmobile",
+       "descr":"oldsmobile cutlass salon brougham"
+    },
+    {
+       "id":258,
+       "model":"dodge",
+       "descr":"dodge diplomat"
+    },
+    {
+       "id":259,
+       "model":"mercury",
+       "descr":"mercury monarch ghia"
+    },
+    {
+       "id":260,
+       "model":"pontiac",
+       "descr":"pontiac phoenix lj"
+    },
+    {
+       "id":261,
+       "model":"chevrolet",
+       "descr":"chevrolet malibu"
+    },
+    {
+       "id":262,
+       "model":"ford",
+       "descr":"ford fairmont (auto)"
+    },
+    {
+       "id":263,
+       "model":"ford",
+       "descr":"ford fairmont (man)"
+    },
+    {
+       "id":264,
+       "model":"plymouth",
+       "descr":"plymouth volare"
+    },
+    {
+       "id":265,
+       "model":"amc",
+       "descr":"amc concord"
+    },
+    {
+       "id":266,
+       "model":"buick",
+       "descr":"buick century special"
+    },
+    {
+       "id":267,
+       "model":"mercury",
+       "descr":"mercury zephyr"
+    },
+    {
+       "id":268,
+       "model":"dodge",
+       "descr":"dodge aspen"
+    },
+    {
+       "id":269,
+       "model":"amc",
+       "descr":"amc concord d\/l"
+    },
+    {
+       "id":270,
+       "model":"chevrolet",
+       "descr":"chevrolet monte carlo landau"
+    },
+    {
+       "id":271,
+       "model":"buick",
+       "descr":"buick regal sport coupe (turbo)"
+    },
+    {
+       "id":272,
+       "model":"ford",
+       "descr":"ford futura"
+    },
+    {
+       "id":273,
+       "model":"dodge",
+       "descr":"dodge magnum xe"
+    },
+    {
+       "id":274,
+       "model":"chevrolet",
+       "descr":"chevrolet chevette"
+    },
+    {
+       "id":275,
+       "model":"toyota",
+       "descr":"toyota corona"
+    },
+    {
+       "id":276,
+       "model":"datsun",
+       "descr":"datsun 510"
+    },
+    {
+       "id":277,
+       "model":"dodge",
+       "descr":"dodge omni"
+    },
+    {
+       "id":278,
+       "model":"toyota",
+       "descr":"toyota celica gt liftback"
+    },
+    {
+       "id":279,
+       "model":"plymouth",
+       "descr":"plymouth sapporo"
+    },
+    {
+       "id":280,
+       "model":"oldsmobile",
+       "descr":"oldsmobile starfire sx"
+    },
+    {
+       "id":281,
+       "model":"datsun",
+       "descr":"datsun 200-sx"
+    },
+    {
+       "id":282,
+       "model":"audi",
+       "descr":"audi 5000"
+    },
+    {
+       "id":283,
+       "model":"volvo",
+       "descr":"volvo 264gl"
+    },
+    {
+       "id":284,
+       "model":"saab",
+       "descr":"saab 99gle"
+    },
+    {
+       "id":285,
+       "model":"peugeot",
+       "descr":"peugeot 604sl"
+    },
+    {
+       "id":286,
+       "model":"volkswagen",
+       "descr":"volkswagen scirocco"
+    },
+    {
+       "id":287,
+       "model":"honda",
+       "descr":"honda accord lx"
+    },
+    {
+       "id":288,
+       "model":"pontiac",
+       "descr":"pontiac lemans v6"
+    },
+    {
+       "id":289,
+       "model":"mercury",
+       "descr":"mercury zephyr 6"
+    },
+    {
+       "id":290,
+       "model":"ford",
+       "descr":"ford fairmont 4"
+    },
+    {
+       "id":291,
+       "model":"amc",
+       "descr":"amc concord dl 6"
+    },
+    {
+       "id":292,
+       "model":"dodge",
+       "descr":"dodge aspen 6"
+    },
+    {
+       "id":293,
+       "model":"chevrolet",
+       "descr":"chevrolet caprice classic"
+    },
+    {
+       "id":294,
+       "model":"ford",
+       "descr":"ford ltd landau"
+    },
+    {
+       "id":295,
+       "model":"mercury",
+       "descr":"mercury grand marquis"
+    },
+    {
+       "id":296,
+       "model":"dodge",
+       "descr":"dodge st. regis"
+    },
+    {
+       "id":297,
+       "model":"buick",
+       "descr":"buick estate wagon (sw)"
+    },
+    {
+       "id":298,
+       "model":"ford",
+       "descr":"ford country squire (sw)"
+    },
+    {
+       "id":299,
+       "model":"chevrolet",
+       "descr":"chevrolet malibu classic (sw)"
+    },
+    {
+       "id":300,
+       "model":"chrysler",
+       "descr":"chrysler lebaron town @ country (sw)"
+    },
+    {
+       "id":301,
+       "model":"volkswagen",
+       "descr":"vw rabbit custom"
+    },
+    {
+       "id":302,
+       "model":"mazda",
+       "descr":"mazda glc deluxe"
+    },
+    {
+       "id":303,
+       "model":"dodge",
+       "descr":"dodge colt hatchback custom"
+    },
+    {
+       "id":304,
+       "model":"amc",
+       "descr":"amc spirit dl"
+    },
+    {
+       "id":305,
+       "model":"mercedes",
+       "descr":"mercedes benz 300d"
+    },
+    {
+       "id":306,
+       "model":"cadillac",
+       "descr":"cadillac eldorado"
+    },
+    {
+       "id":307,
+       "model":"peugeot",
+       "descr":"peugeot 504"
+    },
+    {
+       "id":308,
+       "model":"oldsmobile",
+       "descr":"oldsmobile cutlass salon brougham"
+    },
+    {
+       "id":309,
+       "model":"plymouth",
+       "descr":"plymouth horizon"
+    },
+    {
+       "id":310,
+       "model":"plymouth",
+       "descr":"plymouth horizon tc3"
+    },
+    {
+       "id":311,
+       "model":"datsun",
+       "descr":"datsun 210"
+    },
+    {
+       "id":312,
+       "model":"fiat",
+       "descr":"fiat strada custom"
+    },
+    {
+       "id":313,
+       "model":"buick",
+       "descr":"buick skylark limited"
+    },
+    {
+       "id":314,
+       "model":"chevrolet",
+       "descr":"chevrolet citation"
+    },
+    {
+       "id":315,
+       "model":"oldsmobile",
+       "descr":"oldsmobile omega brougham"
+    },
+    {
+       "id":316,
+       "model":"pontiac",
+       "descr":"pontiac phoenix"
+    },
+    {
+       "id":317,
+       "model":"volkswagen",
+       "descr":"vw rabbit"
+    },
+    {
+       "id":318,
+       "model":"toyota",
+       "descr":"toyota corolla tercel"
+    },
+    {
+       "id":319,
+       "model":"chevrolet",
+       "descr":"chevrolet chevette"
+    },
+    {
+       "id":320,
+       "model":"datsun",
+       "descr":"datsun 310"
+    },
+    {
+       "id":321,
+       "model":"chevrolet",
+       "descr":"chevrolet citation"
+    },
+    {
+       "id":322,
+       "model":"ford",
+       "descr":"ford fairmont"
+    },
+    {
+       "id":323,
+       "model":"amc",
+       "descr":"amc concord"
+    },
+    {
+       "id":324,
+       "model":"dodge",
+       "descr":"dodge aspen"
+    },
+    {
+       "id":325,
+       "model":"audi",
+       "descr":"audi 4000"
+    },
+    {
+       "id":326,
+       "model":"toyota",
+       "descr":"toyota corona liftback"
+    },
+    {
+       "id":327,
+       "model":"mazda",
+       "descr":"mazda 626"
+    },
+    {
+       "id":328,
+       "model":"datsun",
+       "descr":"datsun 510 hatchback"
+    },
+    {
+       "id":329,
+       "model":"toyota",
+       "descr":"toyota corolla"
+    },
+    {
+       "id":330,
+       "model":"mazda",
+       "descr":"mazda glc"
+    },
+    {
+       "id":331,
+       "model":"dodge",
+       "descr":"dodge colt"
+    },
+    {
+       "id":332,
+       "model":"datsun",
+       "descr":"datsun 210"
+    },
+    {
+       "id":333,
+       "model":"volkswagen",
+       "descr":"vw rabbit c (diesel)"
+    },
+    {
+       "id":334,
+       "model":"volkswagen",
+       "descr":"vw dasher (diesel)"
+    },
+    {
+       "id":335,
+       "model":"audi",
+       "descr":"audi 5000s (diesel)"
+    },
+    {
+       "id":336,
+       "model":"mercedes-benz",
+       "descr":"mercedes-benz 240d"
+    },
+    {
+       "id":337,
+       "model":"honda",
+       "descr":"honda civic 1500 gl"
+    },
+    {
+       "id":338,
+       "model":"renault",
+       "descr":"renault lecar deluxe"
+    },
+    {
+       "id":339,
+       "model":"subaru",
+       "descr":"subaru dl"
+    },
+    {
+       "id":340,
+       "model":"volkswagen",
+       "descr":"volkswagen rabbit"
+    },
+    {
+       "id":341,
+       "model":"datsun",
+       "descr":"datsun 280-zx"
+    },
+    {
+       "id":342,
+       "model":"mazda",
+       "descr":"mazda rx-7 gs"
+    },
+    {
+       "id":343,
+       "model":"triumph",
+       "descr":"triumph tr7 coupe"
+    },
+    {
+       "id":344,
+       "model":"ford",
+       "descr":"ford mustang cobra"
+    },
+    {
+       "id":345,
+       "model":"honda",
+       "descr":"honda accord"
+    },
+    {
+       "id":346,
+       "model":"plymouth",
+       "descr":"plymouth reliant"
+    },
+    {
+       "id":347,
+       "model":"buick",
+       "descr":"buick skylark"
+    },
+    {
+       "id":348,
+       "model":"dodge",
+       "descr":"dodge aries wagon (sw)"
+    },
+    {
+       "id":349,
+       "model":"chevrolet",
+       "descr":"chevrolet citation"
+    },
+    {
+       "id":350,
+       "model":"plymouth",
+       "descr":"plymouth reliant"
+    },
+    {
+       "id":351,
+       "model":"toyota",
+       "descr":"toyota starlet"
+    },
+    {
+       "id":352,
+       "model":"plymouth",
+       "descr":"plymouth champ"
+    },
+    {
+       "id":353,
+       "model":"honda",
+       "descr":"honda civic 1300"
+    },
+    {
+       "id":354,
+       "model":"subaru",
+       "descr":"subaru"
+    },
+    {
+       "id":355,
+       "model":"datsun",
+       "descr":"datsun 210 mpg"
+    },
+    {
+       "id":356,
+       "model":"toyota",
+       "descr":"toyota tercel"
+    },
+    {
+       "id":357,
+       "model":"mazda",
+       "descr":"mazda glc 4"
+    },
+    {
+       "id":358,
+       "model":"plymouth",
+       "descr":"plymouth horizon 4"
+    },
+    {
+       "id":359,
+       "model":"ford",
+       "descr":"ford escort 4w"
+    },
+    {
+       "id":360,
+       "model":"ford",
+       "descr":"ford escort 2h"
+    },
+    {
+       "id":361,
+       "model":"volkswagen",
+       "descr":"volkswagen jetta"
+    },
+    {
+       "id":362,
+       "model":"renault",
+       "descr":"renault 18i"
+    },
+    {
+       "id":363,
+       "model":"honda",
+       "descr":"honda prelude"
+    },
+    {
+       "id":364,
+       "model":"toyota",
+       "descr":"toyota corolla"
+    },
+    {
+       "id":365,
+       "model":"datsun",
+       "descr":"datsun 200sx"
+    },
+    {
+       "id":366,
+       "model":"mazda",
+       "descr":"mazda 626"
+    },
+    {
+       "id":367,
+       "model":"peugeot",
+       "descr":"peugeot 505s turbo diesel"
+    },
+    {
+       "id":368,
+       "model":"saab",
+       "descr":"saab 900s"
+    },
+    {
+       "id":369,
+       "model":"volvo",
+       "descr":"volvo diesel"
+    },
+    {
+       "id":370,
+       "model":"toyota",
+       "descr":"toyota cressida"
+    },
+    {
+       "id":371,
+       "model":"datsun",
+       "descr":"datsun 810 maxima"
+    },
+    {
+       "id":372,
+       "model":"buick",
+       "descr":"buick century"
+    },
+    {
+       "id":373,
+       "model":"oldsmobile",
+       "descr":"oldsmobile cutlass ls"
+    },
+    {
+       "id":374,
+       "model":"ford",
+       "descr":"ford granada gl"
+    },
+    {
+       "id":375,
+       "model":"chrysler",
+       "descr":"chrysler lebaron salon"
+    },
+    {
+       "id":376,
+       "model":"chevrolet",
+       "descr":"chevrolet cavalier"
+    },
+    {
+       "id":377,
+       "model":"chevrolet",
+       "descr":"chevrolet cavalier wagon"
+    },
+    {
+       "id":378,
+       "model":"chevrolet",
+       "descr":"chevrolet cavalier 2-door"
+    },
+    {
+       "id":379,
+       "model":"pontiac",
+       "descr":"pontiac j2000 se hatchback"
+    },
+    {
+       "id":380,
+       "model":"dodge",
+       "descr":"dodge aries se"
+    },
+    {
+       "id":381,
+       "model":"pontiac",
+       "descr":"pontiac phoenix"
+    },
+    {
+       "id":382,
+       "model":"ford",
+       "descr":"ford fairmont futura"
+    },
+    {
+       "id":383,
+       "model":"amc",
+       "descr":"amc concord dl"
+    },
+    {
+       "id":384,
+       "model":"volkswagen",
+       "descr":"volkswagen rabbit l"
+    },
+    {
+       "id":385,
+       "model":"mazda",
+       "descr":"mazda glc custom l"
+    },
+    {
+       "id":386,
+       "model":"mazda",
+       "descr":"mazda glc custom"
+    },
+    {
+       "id":387,
+       "model":"plymouth",
+       "descr":"plymouth horizon miser"
+    },
+    {
+       "id":388,
+       "model":"mercury",
+       "descr":"mercury lynx l"
+    },
+    {
+       "id":389,
+       "model":"nissan",
+       "descr":"nissan stanza xe"
+    },
+    {
+       "id":390,
+       "model":"honda",
+       "descr":"honda accord"
+    },
+    {
+       "id":391,
+       "model":"toyota",
+       "descr":"toyota corolla"
+    },
+    {
+       "id":392,
+       "model":"honda",
+       "descr":"honda civic"
+    },
+    {
+       "id":393,
+       "model":"honda",
+       "descr":"honda civic (auto)"
+    },
+    {
+       "id":394,
+       "model":"datsun",
+       "descr":"datsun 310 gx"
+    },
+    {
+       "id":395,
+       "model":"buick",
+       "descr":"buick century limited"
+    },
+    {
+       "id":396,
+       "model":"oldsmobile",
+       "descr":"oldsmobile cutlass ciera (diesel)"
+    },
+    {
+       "id":397,
+       "model":"chrysler",
+       "descr":"chrysler lebaron medallion"
+    },
+    {
+       "id":398,
+       "model":"ford",
+       "descr":"ford granada l"
+    },
+    {
+       "id":399,
+       "model":"toyota",
+       "descr":"toyota celica gt"
+    },
+    {
+       "id":400,
+       "model":"dodge",
+       "descr":"dodge charger 2.2"
+    },
+    {
+       "id":401,
+       "model":"chevrolet",
+       "descr":"chevrolet camaro"
+    },
+    {
+       "id":402,
+       "model":"ford",
+       "descr":"ford mustang gl"
+    },
+    {
+       "id":403,
+       "model":"volkswagen",
+       "descr":"vw pickup"
+    },
+    {
+       "id":404,
+       "model":"dodge",
+       "descr":"dodge rampage"
+    },
+    {
+       "id":405,
+       "model":"ford",
+       "descr":"ford ranger"
+    },
+    {
+       "id":406,
+       "model":"chevrolet",
+       "descr":"chevy s-10"
+    }
+ ])
+
+
+ db.continents.insertMany([
+    {
+       "contid":1,
+       "continent":"america"
+    },
+    {
+       "contid":2,
+       "continent":"europe"
+    },
+    {
+       "contid":3,
+       "continent":"asia"
+    },
+    {
+       "contid":4,
+       "continent":"africa"
+    },
+    {
+       "contid":5,
+       "continent":"australia"
+    }
+ ])
+
+
+ db.countries.insertMany([
+    {
+       "countryid":1,
+       "countryname":"usa",
+       "continent":1
+    },
+    {
+       "countryid":2,
+       "countryname":"germany",
+       "continent":2
+    },
+    {
+       "countryid":3,
+       "countryname":"france",
+       "continent":2
+    },
+    {
+       "countryid":4,
+       "countryname":"japan",
+       "continent":3
+    },
+    {
+       "countryid":5,
+       "countryname":"italy",
+       "continent":2
+    },
+    {
+       "countryid":6,
+       "countryname":"sweden",
+       "continent":2
+    },
+    {
+       "countryid":7,
+       "countryname":"uk",
+       "continent":2
+    },
+    {
+       "countryid":8,
+       "countryname":"korea",
+       "continent":3
+    },
+    {
+       "countryid":9,
+       "countryname":"russia",
+       "continent":2
+    },
+    {
+       "countryid":10,
+       "countryname":"nigeria",
+       "continent":4
+    },
+    {
+       "countryid":11,
+       "countryname":"australia",
+       "continent":5
+    },
+    {
+       "countryid":12,
+       "countryname":"new zealand",
+       "continent":5
+    },
+    {
+       "countryid":13,
+       "countryname":"egypt",
+       "continent":4
+    },
+    {
+       "countryid":14,
+       "countryname":"mexico",
+       "continent":1
+    },
+    {
+       "countryid":15,
+       "countryname":"brazil",
+       "continent":1
+    }
+ ])
+
+
+ db.model_details.insertMany([
+    {
+       "modelid":1,
+       "maker":1,
+       "model":"amc"
+    },
+    {
+       "modelid":2,
+       "maker":2,
+       "model":"audi"
+    },
+    {
+       "modelid":3,
+       "maker":3,
+       "model":"bmw"
+    },
+    {
+       "modelid":4,
+       "maker":4,
+       "model":"buick"
+    },
+    {
+       "modelid":5,
+       "maker":4,
+       "model":"cadillac"
+    },
+    {
+       "modelid":6,
+       "maker":5,
+       "model":"capri"
+    },
+    {
+       "modelid":7,
+       "maker":4,
+       "model":"chevrolet"
+    },
+    {
+       "modelid":8,
+       "maker":6,
+       "model":"chrysler"
+    },
+    {
+       "modelid":9,
+       "maker":7,
+       "model":"citroen"
+    },
+    {
+       "modelid":10,
+       "maker":8,
+       "model":"datsun"
+    },
+    {
+       "modelid":11,
+       "maker":6,
+       "model":"dodge"
+    },
+    {
+       "modelid":12,
+       "maker":9,
+       "model":"fiat"
+    },
+    {
+       "modelid":13,
+       "maker":5,
+       "model":"ford"
+    },
+    {
+       "modelid":14,
+       "maker":10,
+       "model":"hi"
+    },
+    {
+       "modelid":15,
+       "maker":11,
+       "model":"honda"
+    },
+    {
+       "modelid":16,
+       "maker":12,
+       "model":"mazda"
+    },
+    {
+       "modelid":17,
+       "maker":13,
+       "model":"mercedes"
+    },
+    {
+       "modelid":18,
+       "maker":13,
+       "model":"mercedes-benz"
+    },
+    {
+       "modelid":19,
+       "maker":5,
+       "model":"mercury"
+    },
+    {
+       "modelid":20,
+       "maker":8,
+       "model":"nissan"
+    },
+    {
+       "modelid":21,
+       "maker":4,
+       "model":"oldsmobile"
+    },
+    {
+       "modelid":22,
+       "maker":14,
+       "model":"opel"
+    },
+    {
+       "modelid":23,
+       "maker":15,
+       "model":"peugeot"
+    },
+    {
+       "modelid":24,
+       "maker":6,
+       "model":"plymouth"
+    },
+    {
+       "modelid":25,
+       "maker":4,
+       "model":"pontiac"
+    },
+    {
+       "modelid":26,
+       "maker":16,
+       "model":"renault"
+    },
+    {
+       "modelid":27,
+       "maker":17,
+       "model":"saab"
+    },
+    {
+       "modelid":28,
+       "maker":18,
+       "model":"subaru"
+    },
+    {
+       "modelid":29,
+       "maker":19,
+       "model":"toyota"
+    },
+    {
+       "modelid":30,
+       "maker":20,
+       "model":"triumph"
+    },
+    {
+       "modelid":31,
+       "maker":2,
+       "model":"volkswagen"
+    },
+    {
+       "modelid":32,
+       "maker":21,
+       "model":"volvo"
+    },
+    {
+       "modelid":33,
+       "maker":22,
+       "model":"kia"
+    },
+    {
+       "modelid":34,
+       "maker":23,
+       "model":"hyundai"
+    },
+    {
+       "modelid":35,
+       "maker":6,
+       "model":"jeep"
+    },
+    {
+       "modelid":36,
+       "maker":19,
+       "model":"scion"
+    }
+ ])
